@@ -32,12 +32,12 @@ header h1 {
     margin-left: 3rem;
 }
 
-main {
-    padding: .5rem;
+header img {
+    max-width: 300px;
 }
 
-main img {
-    max-width: 300px;
+main {
+    padding: .5rem;
 }
 
 footer {
