@@ -33,6 +33,11 @@ img {
     float: right;
     border-radius: .25em;
 }
+header img {
+    max-width: 300px;
+    float: right;
+    border-radius: .9em;
+}
 
 main {
     padding: .5rem;
