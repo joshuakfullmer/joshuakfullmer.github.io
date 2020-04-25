@@ -34,6 +34,8 @@ header h1 {
 
 header img {
     max-width: 300px;
+    float: right;
+    border-radius: .15em;
 }
 
 main {
