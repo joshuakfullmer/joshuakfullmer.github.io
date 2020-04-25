@@ -28,7 +28,7 @@ header h1 {
     margin-left: 3rem;
 }
 
-#indexpicture img {
+#indexpicture {
     max-width: 300px;
     float: right;
     border-radius: .25em;
