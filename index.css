@@ -4,14 +4,9 @@
 body {
     font-family: 'Lato', sans-serif;
     background-color: white;
-    max-width: 920px;
+    max-width: 850px;
     margin: 0 auto;
 }
-
-/* .content {
-    margin: 0 auto;
-    width: 920px;
-} */
 
 header,
 footer {
@@ -20,6 +15,7 @@ footer {
     background-color: #71D5FF;
     color: black;
     box-shadow: #404040;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header h1 {
@@ -31,11 +27,6 @@ header img {
     max-width: 300px;
     float: right;
     border-radius: .9em;
-}
-img {
-    max-width: 300px;
-    float: right;
-    border-radius: .25em;
 }
 
 main {
