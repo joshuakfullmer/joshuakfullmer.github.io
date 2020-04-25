@@ -8,10 +8,10 @@ body {
     margin: 0 auto;
 }
 
-.content {
+/* .content {
     margin: 0 auto;
     width: 920px;
-}
+} */
 
 header,
 footer {
@@ -22,13 +22,13 @@ footer {
     box-shadow: #404040;
 }
 
-header h1 {
+h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin-left: 3rem;
 }
 
-#indexpicture {
+img {
     max-width: 300px;
     float: right;
     border-radius: .25em;
