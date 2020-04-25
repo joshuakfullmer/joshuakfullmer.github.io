@@ -37,7 +37,11 @@ main {
 }
 
 li {
-    padding: 5px;
+    padding: 2.5px;
+}
+
+li a {
+    color: #875AFF;
 }
 
 footer {
