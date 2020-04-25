@@ -38,33 +38,8 @@ main {
 
 main img {
     max-width: 300px;
-    height: auto;
-    box-shadow: var(--shadow-2);
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
 }
 
 footer {
     text-align: center;
-}
-
-main a:link,
-main a:visited {
-    color: inherit;
-}
-
-main a:hover:hover {
-    color: var(--color-accent-dark);
-}
-
-footer a:link,
-footer a:visited {
-    display: inline;
-    color: var(--white);
-
-}
-
-footer a:hover {
-    color: var(--color-accent);
 }
