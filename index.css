@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@700&display=swap');
 
 
 body {
@@ -23,13 +23,17 @@ header h1 {
     margin-left: 3rem;
 }
 header img {
-    max-width: 300px;
+    max-width: 250px;
     float: right;
-    border-radius: .9em;
+    border-radius: .35em;
 }
 
 main {
     padding: .5rem;
+}
+
+li {
+    padding: 5px;
 }
 
 footer {
