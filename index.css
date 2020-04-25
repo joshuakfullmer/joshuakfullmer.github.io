@@ -15,7 +15,6 @@ footer {
     background-color: #71D5FF;
     color: black;
     box-shadow: #404040;
-    font-family: 'Open Sans', sans-serif;
 }
 
 header h1 {
@@ -35,4 +34,10 @@ main {
 
 footer {
     text-align: center;
+}
+footer a {
+    color: black;
+}
+.update {
+    color: #252525;
 }
