@@ -22,21 +22,20 @@ footer {
     box-shadow: #404040;
 }
 
-h1 {
+header h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin-left: 3rem;
-}
-
-img {
-    max-width: 300px;
-    float: right;
-    border-radius: .25em;
 }
 header img {
     max-width: 300px;
     float: right;
     border-radius: .9em;
+}
+img {
+    max-width: 300px;
+    float: right;
+    border-radius: .25em;
 }
 
 main {
