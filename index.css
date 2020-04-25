@@ -36,12 +36,8 @@ main {
     padding: .5rem;
 }
 
-hr {
-    
-}
-
 main img {
-    width: 10rem;
+    max-width: 300px;
     height: auto;
     box-shadow: var(--shadow-2);
     position: absolute;
