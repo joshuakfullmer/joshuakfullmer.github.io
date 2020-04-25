@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Roboto&display=swap');
+
+html {
+    
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: white
+}
+
+.content {
+    margin: 0 auto;
+    width: 920px;
+}
+
+header,
+footer {
+    padding: 1rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+    box-shadow: var(--shadow-1);
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+
+main {
+    padding: .5rem;
+}
+
+hr {
+    border: .4px solid rgb(211, 211, 212);
+}
+
+main img {
+    width: 10rem;
+    height: auto;
+    box-shadow: var(--shadow-2);
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+footer {
+    text-align: center;
+}
+
+main a:link,
+main a:visited {
+    color: inherit;
+}
+
+main a:hover:hover {
+    color: var(--color-accent-dark);
+}
+
+footer a:link,
+footer a:visited {
+    display: inline;
+    color: var(--white);
+
+}
+
+footer a:hover {
+    color: var(--color-accent);
+}
