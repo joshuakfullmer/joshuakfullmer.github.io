@@ -16,14 +16,14 @@ body {
 header,
 footer {
     padding: 1rem;
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    border-radius: .25rem;
-    -webkit-border-radius: .25rem;
-    -moz-border-radius: .25rem;
-    -ms-border-radius: .25rem;
-    -o-border-radius: .25rem;
-    box-shadow: var(--shadow-1);
+    border-radius: .15rem;
+    -webkit-border-radius: .15rem;
+    -moz-border-radius: .15rem;
+    -ms-border-radius: .15rem;
+    -o-border-radius: .15rem;
+    background-color: #71D5FF;
+    color: black;
+    box-shadow: #404040;
 }
 
 header h1 {
