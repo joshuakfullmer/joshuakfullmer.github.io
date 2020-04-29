@@ -28,6 +28,7 @@ h2 {
 header img {
     max-width: 250px;
     border-radius: .35em;
+    padding-top: 5px;
     /* box-shadow: ; */
 }
 
