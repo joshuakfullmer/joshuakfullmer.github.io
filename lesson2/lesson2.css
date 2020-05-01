@@ -41,11 +41,14 @@ section {
     border-radius: 25px;
     box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
 }
+section p {
+    padding: 5px;
+}
 .ea {
     margin: .84em;
 }
 img {
-    max-width: 96%;
+    max-width: 98%;
 }
 li {
     padding: 2.5px;
