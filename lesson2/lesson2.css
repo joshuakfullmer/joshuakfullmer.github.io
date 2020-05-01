@@ -14,7 +14,7 @@ footer {
     border-radius: .35rem;
     background-color: #71D5FF;
     color: black;
-    box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
     text-align: ;
 }
 
@@ -37,9 +37,9 @@ main {
 section {
     margin: 10px;
     text-align: center;
-    background-color: lightslategrey;
+    background-color: lightgrey;
     border-radius: 25px;
-    box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
 }
 
 li {
