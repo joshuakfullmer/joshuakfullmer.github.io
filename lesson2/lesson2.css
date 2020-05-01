@@ -68,4 +68,8 @@ footer a {
     main {
         display: block;
     }
+    h2 {
+        padding: 15px;
+        margin: 0;
+    }
 }
