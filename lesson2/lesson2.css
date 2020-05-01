@@ -41,10 +41,12 @@ section {
     border-radius: 25px;
     box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
 }
-
-/* img {
+.lesspadding {
+    
+}
+img {
     max-width: 100%;
-} */
+}
 li {
     padding: 2.5px;
 }
