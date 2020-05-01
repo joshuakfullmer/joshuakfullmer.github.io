@@ -15,7 +15,7 @@ footer {
     background-color: #71D5FF;
     color: black;
     box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
-    text-align: center;
+    text-align: ;
 }
 
 header h1 {
@@ -29,11 +29,13 @@ h2 {
 
 main {
     padding: .5rem;
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
     max-width: 800px;
 }
 section {
-    margin: 5px;
+    margin: 10px;
     text-align: center;
     background-color: lightslategrey;
     border-radius: 25px;
