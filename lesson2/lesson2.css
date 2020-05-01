@@ -60,3 +60,13 @@ footer a {
 .updateline {
     color: #404040;
 }
+@media screen and (max-width: 1000px) {
+
+    header img {
+        float: none;
+        padding-top: 0;
+    }
+    main {
+        display: block;
+    }
+}
