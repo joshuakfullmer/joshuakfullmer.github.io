@@ -14,7 +14,7 @@ footer {
     border-radius: .35rem;
     background-color: #71D5FF;
     color: black;
-    /* box-shadow: ; */
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.7);
 }
 
 header h1 {
@@ -29,8 +29,15 @@ h2 {
 main {
     padding: .5rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
+}
+section {
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.7);
 }
 
 li {
