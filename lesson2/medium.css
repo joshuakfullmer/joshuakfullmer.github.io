@@ -1,5 +1,5 @@
 @media screen and (max-width: 900px) {
     main {
-        grid-template-columns: repeat(2,250px);;
+        grid-template-columns: repeat(2,2fr);;
     }
 }

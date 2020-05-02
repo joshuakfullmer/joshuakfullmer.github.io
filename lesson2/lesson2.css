@@ -30,7 +30,7 @@ h2 {
 main {
     padding: .5rem;
     display: grid;
-    grid-template-columns: repeat(3,250px);
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
     max-width: 800px;
 }
