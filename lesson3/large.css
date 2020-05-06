@@ -18,27 +18,22 @@ footer {
 }
 .icon {
     max-width: 50%;
-    float: left;
 }
-header h1 {
+h1, h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    margin-left: 32px;
+    margin-left: 1.3em;
 }
-h2 {
-    margin-left: 12px;
+p {
+    margin-left: 1.5em;
 }
-header img {
-    max-width: 250px;
-    border-radius: .35em;
-    padding-top: 5px;
-    box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
-}
-
 main {
     padding: .5rem;
 }
 
+nav ul {
+    text-decoration: none;
+}
 li {
     padding: 2.5px;
 }
