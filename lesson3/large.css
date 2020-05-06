@@ -16,7 +16,10 @@ footer {
     color: black;
     box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
 }
-
+.icon {
+    max-width: 50%;
+    float: left;
+}
 header h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
