@@ -17,17 +17,22 @@ footer {
     box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
     text-align: center;
 }
+
 .icon {
     max-width: 50%;
 }
-h1, h2 {
+
+h1,
+h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin-left: .5em;
 }
+
 p {
     margin-left: 1.6em;
 }
+
 main {
     padding: .5rem;
 }
@@ -38,9 +43,22 @@ nav ul {
     background-color: #4565FF;
     color: #fff;
 }
+
 nav a {
     text-decoration: none;
-  }
+}
+
+nav a:link,
+nav a:visited {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #4565FF;
+    background-color: #fff;
+    font-weight: bold;
+}
+
 li {
     padding: 2.5px;
 }
@@ -48,9 +66,11 @@ li {
 footer {
     text-align: center;
 }
+
 footer a {
     color: black;
 }
+
 .updateline {
     color: #404040;
 }
