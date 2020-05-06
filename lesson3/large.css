@@ -33,11 +33,14 @@ main {
 }
 
 nav ul {
-    text-decoration: none;
+    list-style: none;
     flex: 3;
     background-color: #4565FF;
     color: #fff;
 }
+nav a {
+    text-decoration: none;
+  }
 li {
     padding: 2.5px;
 }
