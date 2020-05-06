@@ -42,6 +42,9 @@ nav ul {
     flex: 3;
     background-color: #4565FF;
     color: #fff;
+    margin-top: 0;
+    border-radius: .35rem;
+    box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
 }
 
 nav a {
