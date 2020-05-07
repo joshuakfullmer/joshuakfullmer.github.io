@@ -69,6 +69,27 @@ li {
     font-weight: bold;
 }
 
+.color {
+    display: grid;
+    grid-template-columns: repeat(5, 500px);
+}
+
+.color1 {
+    background-color: #9DFF75;
+}
+.color2 {
+    background-color: #6BE871;
+}
+.color3 {
+    background-color: #82FFAC;
+}
+.color4 {
+    background-color: #6BE8B8;
+}
+.color5 {
+    background-color: #83FFF3;
+}
+
 footer {
     text-align: center;
 }
