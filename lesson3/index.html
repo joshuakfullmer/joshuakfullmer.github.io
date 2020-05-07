@@ -38,15 +38,15 @@
         </div>
     </main>
     <footer>
-        <p>&copy; 2020 | Joshua K. Fullmer | Idaho |
+        <p>&copy; <span id="year"></span> | Joshua K. Fullmer | Idaho |
             <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
         </p>
         <p class="updateline">Last updated: <span id="update"></span></p>
     </footer>
     <script>
         document.getElementById('update').innerHTML = document.lastModified;
+        document.getElementById('year').innerHTML = new Date().getFullYear();
     </script>
-    
 </body>
 
 </html>
