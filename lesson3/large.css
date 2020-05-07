@@ -48,26 +48,27 @@ nav ul {
     grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
     padding: .6em;
 }
-
 nav a {
     text-decoration: none;
     color: #fff;
     padding: .6em;
+    text-align: center;
 }
-
 nav a:link,
 nav a:visited {
     color: #fff;
 }
-
 nav a:hover {
     color: #4565FF;
     background-color: #fff;
     font-weight: bold;
 }
-
 li {
     padding: 2.5px;
+}
+.active {
+    color: lightgoldenrodyellow;
+    font-weight: bold;
 }
 
 footer {
