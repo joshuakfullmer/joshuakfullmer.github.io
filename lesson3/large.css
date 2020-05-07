@@ -67,7 +67,8 @@ li {
     padding: 2.5px;
 }
 .active {
-    color: lightgoldenrodyellow;
+    color: #fff;
+    background-color:rgb(44, 70, 201);
     font-weight: bold;
 }
 
