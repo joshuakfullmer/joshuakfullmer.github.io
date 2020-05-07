@@ -46,11 +46,13 @@ nav ul {
     box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    padding: .6em;
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
+    padding: .6em;
 }
 
 nav a:link,
