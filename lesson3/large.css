@@ -54,6 +54,7 @@ nav a {
     padding: .6em;
     text-align: center;
 }
+
 nav a:hover {
     color: #4565FF;
     background-color: #fff;
