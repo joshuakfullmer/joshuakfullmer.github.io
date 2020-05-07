@@ -61,7 +61,7 @@ nav a:hover {
     font-weight: bold;
     border-radius: .75rem;
 }
-li {
+nav ul li {
     padding: 2.5px;
 }
 .active {
