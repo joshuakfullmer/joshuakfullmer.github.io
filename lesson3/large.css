@@ -12,7 +12,7 @@ header,
 footer {
     padding: 1rem;
     border-radius: .35rem;
-    background-color: #71D5FF;
+    background-color: #9DFF75;
     color: black;
     box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
     text-align: center;
@@ -40,7 +40,7 @@ main {
 nav ul {
     list-style: none;
     flex: 3;
-    background-color: #4565FF;
+    background-color: #6BE871;
     margin-top: 0;
     border-radius: .35rem;
     box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
@@ -50,28 +50,29 @@ nav ul {
 }
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     padding: .6em;
     text-align: center;
 }
 
 nav a:hover {
-    color: #4565FF;
-    background-color: #fff;
+    color: black;
+    background-color: #6BE8B8;
     font-weight: bold;
 }
 li {
     padding: 2.5px;
 }
 .active {
-    color: yellow;
-    /* background-color:rgb(44, 70, 201); */
+    color: black;
+    background-color: #83FFF3;
     font-weight: bold;
 }
 
 .color {
     display: grid;
-    grid-template-columns: repeat(5, 500px);
+    grid-template-columns: repeat(5, 1fr);
+    height: 450px;
 }
 
 .color1 {
