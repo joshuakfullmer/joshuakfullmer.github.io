@@ -54,10 +54,6 @@ nav a {
     padding: .6em;
     text-align: center;
 }
-nav a:link,
-nav a:visited {
-    color: #fff;
-}
 nav a:hover {
     color: #4565FF;
     background-color: #fff;
@@ -67,8 +63,8 @@ li {
     padding: 2.5px;
 }
 .active {
-    color: #fff;
-    background-color:rgb(44, 70, 201);
+    color: yellow;
+    /* background-color:rgb(44, 70, 201); */
     font-weight: bold;
 }
 
