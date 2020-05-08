@@ -36,7 +36,9 @@ p {
 main {
     padding: .5rem;
 }
-
+nav {
+    align-items: center;
+}
 nav ul {
     list-style: none;
     flex: 3;
