@@ -40,6 +40,9 @@ li p {
 main {
     padding: .5rem;
 }
+nav {
+    text-align: center;
+}
 nav ul {
     list-style: none;
     flex: 3;
@@ -55,7 +58,6 @@ nav a {
     text-decoration: none;
     color: black;
     padding: .6em;
-    text-align: center;
     font-size: larger;
 }
 
@@ -101,7 +103,9 @@ nav ul li {
 .color5 {
     background-color: #83FFF3;
 }
-
+table {
+    width: 100%;
+}
 th, td {
     padding: 8px;
     text-align: left;
