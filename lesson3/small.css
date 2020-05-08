@@ -7,7 +7,7 @@
         display: block;
     }
     .active, nav a:hover {
-        padding: 0;
+        padding: .15em;
     }
     .personas {
         display: block;
