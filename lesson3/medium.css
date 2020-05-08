@@ -21,5 +21,8 @@
         background-color: initial;
         font-size: 1.7rem;
     }
+    li p {
+        line-height: 1em;
+    }
 
 }
