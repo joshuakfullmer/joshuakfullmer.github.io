@@ -70,7 +70,10 @@ nav ul li {
     font-weight: bold;
     border-radius: .75rem;
 }
-
+.personas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .color {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
