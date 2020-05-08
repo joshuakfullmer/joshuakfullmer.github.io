@@ -9,10 +9,12 @@
     }
     nav a {
         font-size: 1.5em;
+        padding: 0;
     }
     .color {
         grid-template-columns: none;
         grid-template-rows: repeat(5, 1fr);
+        height: auto;
     }
     .colortext {
         font-size: 30px;
