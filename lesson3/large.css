@@ -31,7 +31,7 @@ h2 {
 }
 p {
     margin-left: 1.6em;
-    
+    font-size: 18px;
 }
 li p {
     margin-left: 0;
@@ -100,6 +100,12 @@ nav ul li {
 }
 .color5 {
     background-color: #83FFF3;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
 }
 
 footer {
