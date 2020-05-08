@@ -7,13 +7,16 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
     }
+    nav a {
+        font-size: 1.5em;
+    }
     .color {
         grid-template-columns: none;
         grid-template-rows: repeat(5, 1fr);
     }
     .active, nav a:hover {
         background-color: initial;
-        font-size: large;
+        font-size: 1.7rem;
     }
 
 }
