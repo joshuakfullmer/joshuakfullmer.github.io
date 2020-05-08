@@ -1,11 +1,19 @@
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 690px) {
     .grid-box {
         display: block;
     }
     nav ul {
-        
         flex: 0;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
     }
+    .color {
+        grid-template-columns: none;
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .active, nav a:hover {
+        background-color: none;
+        font-size: large;
+    }
+    
 }

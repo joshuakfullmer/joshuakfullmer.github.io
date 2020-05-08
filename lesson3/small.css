@@ -1,0 +1,9 @@
+@media screen and (max-width: 500px) {
+    .grid-box {
+        display: block;
+    }
+    nav ul {
+        flex: 0;
+        display: block;
+    }
+}
