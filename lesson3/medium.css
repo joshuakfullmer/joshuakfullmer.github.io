@@ -14,6 +14,9 @@
         grid-template-columns: none;
         grid-template-rows: repeat(5, 1fr);
     }
+    .colortext {
+        font-size: 30px;
+    }
     .active, nav a:hover {
         background-color: initial;
         font-size: 1.7rem;
