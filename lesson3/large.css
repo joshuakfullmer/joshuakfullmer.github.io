@@ -38,8 +38,7 @@ main {
 }
 nav {
     align-items: center;
-}
-nav ul {
+    overflow-x: hidden;
     list-style: none;
     flex: 3;
     background-color: #6BE871;
@@ -50,6 +49,17 @@ nav ul {
     grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
     padding: .6em;
 }
+/* nav ul {
+    list-style: none;
+    flex: 3;
+    background-color: #6BE871;
+    margin-top: 0;
+    border-radius: .35rem;
+    box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    padding: .6em;
+} */
 nav a {
     text-decoration: none;
     color: black;
