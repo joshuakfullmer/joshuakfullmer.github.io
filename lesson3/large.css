@@ -1,6 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@700&display=swap'); */
 
-
 body {
     font-family: 'Lato', sans-serif;
     background-color: white;
@@ -17,7 +16,6 @@ footer {
     box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
     text-align: center;
 }
-
 .icon {
     max-width: 50%;
 }
@@ -28,7 +26,6 @@ h2 {
     font-weight: bold;
     margin-left: .5em;
 }
-
 p {
     margin-left: 1.6em;
 }
@@ -36,9 +33,7 @@ p {
 main {
     padding: .5rem;
 }
-nav {
-    align-items: center;
-    overflow-x: hidden;
+nav ul {
     list-style: none;
     flex: 3;
     background-color: #6BE871;
@@ -49,17 +44,6 @@ nav {
     grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
     padding: .6em;
 }
-/* nav ul {
-    list-style: none;
-    flex: 3;
-    background-color: #6BE871;
-    margin-top: 0;
-    border-radius: .35rem;
-    box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
-    padding: .6em;
-} */
 nav a {
     text-decoration: none;
     color: black;
