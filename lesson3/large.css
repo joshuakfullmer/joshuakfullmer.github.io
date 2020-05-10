@@ -102,6 +102,9 @@ nav ul li {
 .color5 {
     background-color: #83FFF3;
 }
+.colortext {
+    padding: 1em;
+}
 table {
     width: 100%;
 }
