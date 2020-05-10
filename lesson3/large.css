@@ -104,6 +104,8 @@ nav ul li {
 }
 .colortext {
     padding: 1em;
+    margin: 0 auto;
+    font-size: inherit;
 }
 table {
     width: 100%;
