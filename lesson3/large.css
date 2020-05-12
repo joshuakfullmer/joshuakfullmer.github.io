@@ -101,11 +101,10 @@ nav ul li {
 .color5 {
     background-color: #83FFF3;
 }
-.colortext {
-    padding: 1em;
-    margin: 0 auto;
-    font-size: inherit;
+.color div p {
+    margin: .5em;
 }
+/* colortext */
 table {
     width: 100%;
 }
