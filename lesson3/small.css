@@ -6,9 +6,9 @@
         flex: 0;
         display: block;
     }
-    .active, nav a:hover {
+    /* .active, nav a:hover {
         padding: .15em;
-    }
+    } */
     .personas {
         display: block;
     }

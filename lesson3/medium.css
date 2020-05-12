@@ -21,8 +21,6 @@
     }
     .active, nav a:hover {
         background-color: initial;
-        font-size: 1.7rem;
-        padding: .2em;
     }
     li p {
         line-height: 1em;
