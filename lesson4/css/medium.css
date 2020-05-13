@@ -1,0 +1,6 @@
+/* tablet windows */
+@media screen and (min-width: 40em) {
+    header {
+        display: block;
+    }
+}
