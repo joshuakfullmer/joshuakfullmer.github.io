@@ -13,18 +13,19 @@ footer {
     color: black;
     text-align: center;
 }
+main, footer {
+    max-width: 920px;
+}
 .icon {
     max-width: 19%;
     /* float: left; */
 }
 
-h1,
-h2 {
-    font-weight: bold;
-    margin-left: .5em;
+h1 {
     font-family: 'Russo One', sans-serif;
 }
-h2 {
+h2, h3 {
+    margin-left: .5em;
     font-family: 'Taviraj', serif;
 }
 p {
