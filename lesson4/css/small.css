@@ -18,8 +18,7 @@ header {
 }
 
 .icon {
-    max-width: 19%;
-    /* float: left; */
+    max-width: 146px;
 }
 
 h1 {
@@ -48,7 +47,7 @@ nav {
 nav ul {
     list-style: none;
     background-color: #6BE871;
-    margin-top: 0;
+    margin: 0;
     border-radius: .35rem;
     /* box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75); */
     display: flex;
@@ -63,7 +62,6 @@ nav a {
 
 nav a:hover {
     color: black;
-    background-color: #82FFAC;
     font-weight: bold;
     border-radius: .75rem;
 }
