@@ -14,7 +14,7 @@ footer {
     text-align: center;
 }
 header {
-    display: flex;
+    display: block;
 }
 
 .icon {
