@@ -16,9 +16,7 @@ footer {
 header {
     display: flex;
 }
-main, footer {
-    max-width: 920px;
-}
+
 .icon {
     max-width: 19%;
     /* float: left; */

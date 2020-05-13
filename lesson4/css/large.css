@@ -1,4 +1,6 @@
 /* phone windows */
 @media screen and (min-width: 940px) {
-
+    main, footer {
+        max-width: 920px;
+    }
 }
