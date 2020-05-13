@@ -8,7 +8,6 @@ body {
 header,
 footer {
     padding: 1rem;
-    /* border-radius: .35rem; */
     background-color: #9DFF75;
     color: black;
     text-align: center;
