@@ -8,12 +8,12 @@ body {
 header,
 footer {
     padding: 1rem;
-    background-color: #9DFF75;
     color: black;
     text-align: center;
 }
 header {
     display: block;
+    background-color: #9DFF75;
 }
 
 
@@ -86,6 +86,7 @@ main section {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+/* color page */
 .color {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -111,7 +112,7 @@ main section {
 .color div p {
     margin: .5em;
 }
-/* colortext */
+
 table {
     width: 100%;
 }
@@ -122,13 +123,11 @@ th, td {
 }
 
 footer {
-    text-align: center;
+    background-color: #6BE871;
 }
-
 footer a {
     color: black;
 }
-
 .updateline {
     color: #404040;
 }
