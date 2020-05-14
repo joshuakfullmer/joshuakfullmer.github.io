@@ -22,7 +22,7 @@
         </div>
     </header>
     <nav>
-        <ul>
+        <ul class="navbar">
             <li><a href="#">Home</a></li>
             <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -56,6 +56,9 @@
     <script>
         document.getElementById('update').innerHTML = document.lastModified;
         document.getElementById('year').innerHTML = new Date().getFullYear();
+        const hambutton = document.querySelector('.ham');
+        document.querySelector('navbar');
+        hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
     </script>
 </body>
 
