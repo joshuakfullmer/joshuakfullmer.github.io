@@ -78,10 +78,14 @@ nav {
 }
 
 main section {
-    margin: auto;
-    width: 700px;
+    margin: 9px auto;
+    max-width: 700px;
     padding: 1px;
-    box-shadow: rgba(0, 0, 0, .5) 0px 1px 3px 0px;
+    background-color: ghostwhite;
+    box-shadow: inset rgba(0,0,0,.5) 0px 0px 11px 0px
+}
+main section:hover {
+    box-shadow: inset rgba(0,0,0,.5) 0px 0px 18px 2px;
 }
 .personas {
     display: grid;
