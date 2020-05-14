@@ -27,6 +27,7 @@ h1 {
 h2, h3 {
     margin-left: .5em;
     font-family: 'Taviraj', serif;
+    text-align: center;
 }
 p {
     margin-left: 1.6em;
@@ -52,8 +53,8 @@ nav {
 .navbar li:first-child {
     display: block;
 }
-.narbar li {
-    display: none
+.navbar li {
+    display: none;
 }
 .navbar a {
     display: block;
@@ -76,7 +77,9 @@ nav {
     border-radius: .75rem;
 }
 
-
+main section {
+    box-shadow: rgba(0, 0, 0, .5) 0px 1px 3px 0px;
+}
 .personas {
     display: grid;
     grid-template-columns: 1fr 1fr;
