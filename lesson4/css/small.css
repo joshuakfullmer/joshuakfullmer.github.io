@@ -53,7 +53,10 @@ nav {
     display: flex;
     padding: .6em;
 }
-nav a {
+.navbar li {
+    display: none;
+}
+.navbar a {
     text-decoration: none;
     color: black;
     padding: .6em;
