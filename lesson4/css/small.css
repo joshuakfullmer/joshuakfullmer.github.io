@@ -29,6 +29,10 @@ h2, h3 {
     font-family: 'Taviraj', serif;
     text-align: center;
 }
+h3 {
+    text-align: left;
+    padding-left: .5em;
+}
 p {
     margin-left: 1.6em;
     font-size: 18px;
@@ -82,10 +86,10 @@ main section {
     max-width: 700px;
     padding: 1px;
     background-color: ghostwhite;
-    box-shadow: inset rgba(0,0,0,.5) 0px 0px 11px 0px
+    box-shadow: inset rgba(0,0,0,.5) 0px 0px 5px 0px
 }
 main section:hover {
-    box-shadow: inset rgba(0,0,0,.5) 0px 0px 18px 2px;
+    box-shadow: inset rgba(0,0,0,.5) 0px 0px 8px 1px;
 }
 .personas {
     display: grid;
