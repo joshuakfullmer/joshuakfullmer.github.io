@@ -42,41 +42,43 @@ main {
     padding: .5rem;
 }
 nav {
-    text-align: center;
+    margin: 0 auto;
+    background-color: #6BE871;
 }
 .navbar {
     list-style: none;
-    background-color: #6BE871;
-    margin: 0;
-    border-radius: .35rem;
-    /* box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75); */
-    display: flex;
-    padding: .6em;
+    padding: 0;
 }
-.navbar li {
-    display: none;
+.navbar li:first-child {
+    display: block;
+}
+.narbar li {
+    /* padding: 2.5px; */
+    /* flex-grow: 1; */
+    /* display: none */
 }
 .navbar a {
+    display: block;
     text-decoration: none;
     color: black;
     padding: .6em;
     font-size: larger;
 }
-
-nav a:hover {
+.navbar a:hover {
     color: black;
     font-weight: bold;
     border-radius: .75rem;
 }
-nav ul li {
-    padding: 2.5px;
-    flex-grow: 1;
+.respons li {
+    display: block;
 }
 .active {
     color: black;
     font-weight: bold;
     border-radius: .75rem;
 }
+
+
 .personas {
     display: grid;
     grid-template-columns: 1fr 1fr;

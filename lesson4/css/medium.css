@@ -3,4 +3,17 @@
     header {
         display: flex;
     }
+    .navbar {
+        display: flex;
+    }
+    .navbar li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navbar a {
+        text-align: center;
+    }
+    .navbar li:first-child {
+        display: none;
+    }
 }
