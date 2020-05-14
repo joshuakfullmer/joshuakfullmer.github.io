@@ -137,6 +137,9 @@ footer {
 footer a {
     color: black;
 }
+footer p {
+    margin-left: 0;
+}
 .updateline {
     color: #404040;
 }
