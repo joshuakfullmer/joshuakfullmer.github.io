@@ -1,10 +1,10 @@
+/* large screens */
 @media only screen and (min-width: 510px) {
     .grid-box {
         display: block;
     }
     nav ul {
-        flex: 0;
-        display: block;
+        flex-direction: row;
     }
     /* .active, nav a:hover {
         padding: .15em;

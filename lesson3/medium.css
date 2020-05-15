@@ -1,11 +1,7 @@
+/* medium and tablet screens */
 @media only screen and (min-width: 690px) {
     .grid-box {
         display: block;
-    }
-    nav ul {
-        flex: 0;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
     }
     nav a {
         font-size: 1.5em;
