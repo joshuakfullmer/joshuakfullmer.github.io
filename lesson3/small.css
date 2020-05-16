@@ -77,13 +77,7 @@ nav ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.color {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    height: 450px;
-    font-size: 20px;
-    border-style: solid;
-}
+
 .color1 {
     background-color: #b5ff97;
 }
