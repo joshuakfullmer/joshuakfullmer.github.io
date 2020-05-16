@@ -9,7 +9,7 @@ function getDate() {
     let day = new Date()
     let month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    let now = dayOfWeek[day.getDate()] + ", " + day.getDate() + " " + month[day.getMonth()] + " " + day.getFullYear();
+    let now = dayOfWeek[day.getDay()] + ", " + day.getDate() + " " + month[day.getMonth()] + " " + day.getFullYear();
     return now;
 }
 // last updated date
