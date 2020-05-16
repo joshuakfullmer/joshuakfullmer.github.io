@@ -1,9 +1,13 @@
-document.getElementById('update').innerHTML = document.lastModified;
-document.getElementById('year').innerHTML = new Date().getFullYear();
+
 function toggleMenu() {
     document.getElementsByClassName('navbar')[0].classList.toggle('responsive')
-    // const hambutton = document.querySelector('.ham');
-    // const mainnav = document.querySelector('.navbar')
-
-    // hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 }
+
+let day = new Date().getDate();
+let month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+let dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+let now = dayOfWeek[day.getDay()] + ", " + day.getDate() + " " + month[day.getMonth()] + " " + day.getFullYear();
+document.getElementById("now").innerHTML = now;
+
+document.getElementById('update').innerHTML = document.lastModified;
+document.getElementById('year').innerHTML = new Date().getFullYear();
