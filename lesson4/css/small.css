@@ -12,8 +12,8 @@ footer {
     text-align: center;
 }
 header {
-    display: block;
     background-color: #9DFF75;
+    justify-content: center;
 }
 
 
