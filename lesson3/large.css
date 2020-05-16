@@ -16,6 +16,7 @@
     .color {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: none;
         height: 450px;
         font-size: 20px;
         border-style: solid;

@@ -77,7 +77,11 @@ nav ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
+.color {
+    grid-template-columns: none;
+    grid-template-rows: repeat(5, 1fr);
+    height: auto;
+}
 .color1 {
     background-color: #b5ff97;
 }
