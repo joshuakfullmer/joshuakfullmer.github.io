@@ -10,9 +10,7 @@
         font-size: 1.5em;
         padding: 0;
     }
-    .personas {
-        display: block;
-    }
+    
     .color {
         display: grid;
         grid-template-columns: repeat(5, 1fr);

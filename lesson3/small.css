@@ -74,9 +74,9 @@ nav ul li {
     border-radius: .75rem;
 }
 .personas {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
 }
+
 .color {
     display: grid;
     grid-template-columns: none;

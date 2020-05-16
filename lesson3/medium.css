@@ -3,7 +3,10 @@
     .grid-box {
         display: block;
     }
-
+    .personas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .active, nav a:hover {
         background-color: initial;
     }
