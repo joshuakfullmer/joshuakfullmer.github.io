@@ -19,8 +19,9 @@ document.getElementById('year').innerHTML = new Date().getFullYear();
 // banner
 function banner() {
     let day = new Date();
+    let daynum = day.getDay();
     let show = document.getElementById('banner');
-    if (day.getDay != 3) {
+    if (daynum != 3) {
         show.style.display = "none"
     }
 }
