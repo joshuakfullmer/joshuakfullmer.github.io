@@ -1,0 +1,146 @@
+/* big windows */
+body {
+    font-family: 'Neuton', serif;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    padding: 1rem;
+    color: black;
+    text-align: center;
+}
+header {
+    background-color: #b5ff97;
+    justify-content: center;
+}
+
+.icon {
+    width: 146px;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+}
+h2, h3 {
+    margin-left: .5em;
+    font-family: 'Taviraj', serif;
+    text-align: center;
+}
+h3 {
+    text-align: left;
+    padding-left: .5em;
+}
+p {
+    margin-left: 1.6em;
+    font-size: 18px;
+    line-height: initial;
+}
+li p {
+    margin-left: 0;
+    line-height: 1em;
+}
+main {
+    padding: .5rem;
+}
+nav {
+    margin: 0 auto;
+    background-color: #6BE871;
+}
+.navbar {
+    list-style: none;
+    padding: 0;
+    max-width: 970px;
+    margin: auto;
+}
+.navbar li:first-child {
+    display: block;
+    font-weight: bold;
+}
+.navbar li {
+    display: none;
+}
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: .6em;
+    font-size: larger;
+}
+.navbar a:hover {
+    color: black;
+    font-weight: bold;
+    border-radius: .75rem;
+}
+.responsive li {
+    display: block;
+}
+.active {
+    color: black;
+    font-weight: bold;
+    border-radius: .75rem;
+}
+
+main section {
+    margin: 9px auto;
+    max-width: 700px;
+    padding: 1px;
+    background-color: ghostwhite;
+    box-shadow: inset rgba(0,0,0,.5) 0px 0px 5px 0px
+}
+main section:hover {
+    box-shadow: inset rgba(0,0,0,.5) 0px 0px 8px 1px;
+}
+.personas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* color page */
+.color {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 450px;
+    font-size: 20px;
+    border-style: solid;
+}
+.color1 {
+    background-color: #9DFF75;
+}
+.color2 {
+    background-color: #6BE871;
+}
+.color3 {
+    background-color: #82FFAC;
+}
+.color4 {
+    background-color: #6BE8B8;
+}
+.color5 {
+    background-color: #83FFF3;
+}
+.color div p {
+    margin: .5em;
+}
+
+table {
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #6BE871;
+}
+footer a {
+    color: black;
+}
+footer p {
+    margin-left: 0;
+}
+.updateline {
+    color: #404040;
+}
