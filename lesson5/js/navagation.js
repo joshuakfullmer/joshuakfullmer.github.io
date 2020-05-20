@@ -15,12 +15,13 @@ function getDate() {
 // last updated date
 document.getElementById('update').innerHTML = document.lastModified;
 document.getElementById('year').innerHTML = new Date().getFullYear();
+
 // banner
 function banner() {
     let day = new Date();
     let show = document.getElementById('banner');
     if (day.getDay != 5) {
-        
+        show.style.display = "none"
     }
     document.getElementById('dayweek').innerHTML = day.getDay;
 }
