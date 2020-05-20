@@ -23,5 +23,4 @@ function banner() {
     if (day.getDay != 3) {
         show.style.display = "none"
     }
-    document.getElementById('dayweek').innerHTML = day.getDay();
 }
