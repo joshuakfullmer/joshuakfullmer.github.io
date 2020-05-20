@@ -20,7 +20,7 @@ document.getElementById('year').innerHTML = new Date().getFullYear();
 function banner() {
     let day = new Date();
     let show = document.getElementById('banner');
-    if (day.getDay != 5) {
+    if (day.getDay != 3) {
         show.style.display = "none"
     }
     document.getElementById('dayweek').innerHTML = day.getDay();
