@@ -4,6 +4,9 @@ body {
     background-color: white;
     margin: 0 auto;
 }
+aside {
+    background-color: #83FFF3;
+}
 
 header,
 footer {
