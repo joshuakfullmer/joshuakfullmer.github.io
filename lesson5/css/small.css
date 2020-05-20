@@ -6,6 +6,8 @@ body {
 }
 aside {
     background-color: #83FFF3;
+    margin: 0 auto;
+    text-align: center;
 }
 
 header,
