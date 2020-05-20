@@ -18,8 +18,9 @@ document.getElementById('year').innerHTML = new Date().getFullYear();
 // banner
 function banner() {
     let day = new Date();
+    let show = document.getElementById('banner');
     if (day.getDay != 5) {
-        document.getElementsByClassName('banner')[0].classList.toggle('responsive');
+        
     }
     document.getElementById('dayweek').innerHTML = day.getDay;
 }
