@@ -169,6 +169,9 @@ tr td, tr th {
 .socials a {
     text-decoration: none;
 }
+.socials a img {
+    width: 40px;
+}
 /* footer */
 footer {
     background-color: #6BE871;
