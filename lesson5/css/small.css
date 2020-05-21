@@ -101,7 +101,7 @@ main section:hover {
 .summary img {
 
 }
-.weathersummary {
+#weathersummary {
     background-color: white;
     padding-right: .7em;
     border: 1px solid black;
