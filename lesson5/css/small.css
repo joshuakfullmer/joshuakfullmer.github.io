@@ -88,11 +88,13 @@ nav {
     font-weight: bold;
     border-radius: .75rem;
 }
+
 /* content */
 main section {
     margin: 9px auto;
     padding: 1px;
 }
+/* weather summary */
 .summary {
     position: relative;
 }
@@ -116,6 +118,7 @@ main section {
 #weathersummary p, #weathersummary h3 {
     margin: .3em
 }
+/* 5 day forcast */
 .forecast {
     display: none;
     text-align: center;
@@ -133,14 +136,15 @@ tr td, tr th {
     padding: 1em;
     background: #e4e4e4;
 }
-.article {
+/* article */
+/* .article {
 
-}
+} */
 .article img {
-    float: right;
+    float: none;
     max-width: 100px;
-    
 }
+/* map and contact info */
 
 /* footers */
 .mapcontact {

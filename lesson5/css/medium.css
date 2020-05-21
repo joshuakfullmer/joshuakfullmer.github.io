@@ -27,4 +27,7 @@
     #weathersummary p, #weathersummary h3{
         margin: 1em;
     }
+    .article img {
+        float: right;
+    }
 }
