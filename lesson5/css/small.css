@@ -92,12 +92,12 @@ nav {
 main section {
     margin: 9px auto;
     padding: 1px;
-    background-color: ghostwhite;
-    box-shadow: inset rgba(0,0,0,.5) 0px 0px 5px 0px
+    /* background-color: ghostwhite; */
+    /* box-shadow: inset rgba(0,0,0,.5) 0px 0px 5px 0px */
 }
-main section:hover {
+/* main section:hover {
     box-shadow: inset rgba(0,0,0,.5) 0px 0px 8px 1px;
-}
+} */
 .summary {
     position: relative;
 }
@@ -116,7 +116,6 @@ main section:hover {
 }
 .forecast {
     display: none;
-    margin: inherit;
     text-align: center;
     padding: 10px;
 }
@@ -125,8 +124,8 @@ table {
     border: 1px solid;
     margin: auto;
 }
-tr td {
-    border: 1px solid;
+tr td, tr th {
+    border: 2px solid;
 }
 
 /* footers */
