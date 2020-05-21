@@ -141,8 +141,12 @@ tr td, tr th {
 
 } */
 .article img {
+    display: none;
     float: none;
     max-width: 100px;
+}
+.small {
+    display: block;
 }
 /* map and contact info */
 

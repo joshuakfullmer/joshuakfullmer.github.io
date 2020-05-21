@@ -30,4 +30,7 @@
     .article img {
         float: right;
     }
+    .small {
+        display: none;
+    }
 }
