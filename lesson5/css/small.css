@@ -92,12 +92,7 @@ nav {
 main section {
     margin: 9px auto;
     padding: 1px;
-    /* background-color: ghostwhite; */
-    /* box-shadow: inset rgba(0,0,0,.5) 0px 0px 5px 0px */
 }
-/* main section:hover {
-    box-shadow: inset rgba(0,0,0,.5) 0px 0px 8px 1px;
-} */
 .summary {
     position: relative;
 }
@@ -109,7 +104,7 @@ main section {
 }
 #weathersummary {
     position: absolute;
-    top: 10px;
+    top: -15px;
     left: 10px;
     max-width: 70%;
     background-color: white;
@@ -137,6 +132,14 @@ tr td, tr th {
     border: 2px solid;
     padding: 1em;
     background: #e4e4e4;
+}
+.article {
+
+}
+.article img {
+    float: right;
+    max-width: 100px;
+    
 }
 
 /* footers */
