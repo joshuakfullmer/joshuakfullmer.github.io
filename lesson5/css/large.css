@@ -4,4 +4,9 @@
         max-width: 920px;
         margin: 0 auto;
     }
+    .weathersummary {
+        position: absolute;
+        top: 350px;
+        left: 50px;
+    }
 }
