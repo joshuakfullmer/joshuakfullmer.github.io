@@ -147,9 +147,21 @@ tr td, tr th {
     max-width: 40%;
     margin: .5em;
     border: 3px solid;
+    margin-left: 3em;
 }
 /* map and contact info */
-
+.mapcontact {
+    display: flex;
+}
+.mapcontact div {
+    margin: 1em;
+}
+.mapcontact div img {
+    max-width: 70%;
+}
+.socials a {
+    text-decoration: none;
+}
 /* footers */
 .mapcontact {
     margin-bottom: 0;
