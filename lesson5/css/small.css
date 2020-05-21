@@ -141,6 +141,7 @@ tr td, tr th {
 .article {
     border: 1px solid;
     background: whitesmoke;
+    margin: .3em;
 }
 .article img {
     float: none;
@@ -152,6 +153,8 @@ tr td, tr th {
 /* map and contact info */
 .mapcontact {
     display: flex;
+    margin-bottom: 0;
+    flex-direction: column;
 }
 .mapcontact div {
     margin: 1em;
@@ -159,13 +162,14 @@ tr td, tr th {
 .mapcontact div img {
     max-width: 70%;
 }
+.contact p {
+    line-height: 2em;
+    margin-top: 0;
+}
 .socials a {
     text-decoration: none;
 }
-/* footers */
-.mapcontact {
-    margin-bottom: 0;
-}
+/* footer */
 footer {
     background-color: #6BE871;
 }

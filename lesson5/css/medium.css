@@ -32,4 +32,10 @@
         float: right;
         margin-left: 1em;
     }
+    .mapcontact {
+        flex-direction: row;
+    }
+    .contact p {
+        margin-top: 3em;
+    }
 }
