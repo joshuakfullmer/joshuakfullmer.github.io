@@ -16,6 +16,9 @@
     .navbar li:first-child {
         display: none;
     }
+    .forecast {
+        display: table;
+    }
     #weathersummary {
         top: 32px;
         left: 40px;
