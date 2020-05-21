@@ -26,11 +26,9 @@
     }
     #weathersummary p, #weathersummary h3{
         margin: 1em;
+        font-size: unset;
     }
     .article img {
         float: right;
-    }
-    .small {
-        display: none;
     }
 }

@@ -116,7 +116,8 @@ main section {
     border-radius: 10px;
 }
 #weathersummary p, #weathersummary h3 {
-    margin: .3em
+    margin: .3em;
+    font-size: 1em;
 }
 /* 5 day forcast */
 .forecast {
@@ -141,12 +142,8 @@ tr td, tr th {
 
 } */
 .article img {
-    display: none;
     float: none;
     max-width: 100px;
-}
-.small {
-    display: block;
 }
 /* map and contact info */
 
