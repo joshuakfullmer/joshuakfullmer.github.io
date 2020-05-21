@@ -16,5 +16,9 @@
     .navbar li:first-child {
         display: none;
     }
-    
+    #weathersummary {
+        top: 32px;
+        left: 40px;
+        max-width: 250px;
+    }
 }
