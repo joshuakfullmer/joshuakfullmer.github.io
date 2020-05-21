@@ -102,6 +102,9 @@ main section:hover {
 
 }
 #weathersummary {
+    position: absolute;
+    top: 350px;
+    left: 50px;
     background-color: white;
     padding-right: .7em;
     border: 1px solid black;
