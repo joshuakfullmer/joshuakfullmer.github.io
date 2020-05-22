@@ -39,7 +39,9 @@ main {
 li {
     padding: 2.5px;
 }
-
+a {
+    color: darkblue;
+}
 footer {
     text-align: center;
 }
