@@ -1,5 +1,5 @@
 /* tablet windows */
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 660px) {
     header {
         display: flex;
     }
@@ -31,14 +31,24 @@
     .article img {
         float: right;
         margin-left: 1em;
+        width: 300px;
     }
     .mapcontact {
         flex-direction: row;
     }
+    .mapcontact div {
+        margin: 1em;
+    }
+    .mapcontact h3 {
+        margin-left: 1em;
+    }
     .contact p {
-        margin-top: 3em;
+        margin-top: 5em;
     }
     .socials a img {
-        width: 30px;
+        width: 47px;
+    }
+    .map {
+        display: block;
     }
 }

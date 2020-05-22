@@ -10,4 +10,10 @@
     .socials a img {
         width: 64px;
     }
+    .article img {
+        width: 425px;
+    }
+    .contact p {
+        margin-top: 4em;
+    }
 }
