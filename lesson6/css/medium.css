@@ -1,0 +1,56 @@
+/* tablet windows */
+@media only screen and (min-width: 660px) {
+    header {
+        display: flex;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navbar a {
+        text-align: center;
+    }
+    .navbar li:first-child {
+        display: none;
+    }
+    .forecast {
+        display: table;
+    }
+    #weathersummary {
+
+        max-width: 250px;
+    }
+    #weathersummary p, #weathersummary h3{
+        margin: 1em;
+        font-size: larger;
+    }
+    .summary img {
+        margin-bottom: 0em;
+    }
+    .article img {
+        float: right;
+        margin-left: 1em;
+        width: 300px;
+    }
+    .mapcontact {
+        flex-direction: row;
+    }
+    .mapcontact div {
+        margin: 1em;
+    }
+    .mapcontact h3 {
+        margin-left: 1em;
+    }
+    .contact p {
+        margin-top: 5em;
+    }
+    .socials a img {
+        width: 47px;
+    }
+    .map {
+        display: block;
+    }
+}

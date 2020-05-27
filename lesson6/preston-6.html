@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Idaho Weather</title>
+    <meta name="description" content="The Preston Idaho page from the 'Weather Me This' website.">
+    <link href="https://fonts.googleapis.com/css2?family=Neuton&family=Russo+One&family=Taviraj:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body onload="banner()">
+    <aside id="banner" style="display: block">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <img class="icon" src="images/weathericon.png" alt="weather me this logo">
+        <div>
+            <h1>Weather Me This</h1>
+            <h2>Predicting the Weather is No Riddle</h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li><a class="ham" onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <section class="summary">
+            <img src="images/bannerweather.jpg" alt="large waterfall banner">
+            <div id="weathersummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: Sunny</p>
+                <p>High: 80°F</p>
+                <p>Wind Chill: 2°F</p>
+                <p>Humidity: 43%</p>
+                <p>Wind: 2 mph</p>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <td><img src="images/sunny.png" alt="sun icon"><br>80°F</td>
+                    <td><img src="images/cloudy.png" alt="cloudy icon"><br>72°F</td>
+                    <td><img src="images/lightrain.png" alt="light rain icon"><br>63°F</td>
+                    <td><img src="images/heavyrain.png" alt="heavy rain icon"><br>54°F</td>
+                    <td><img src="images/stormy.png" alt="storm icon"><br>51°F</td>
+                </tr>
+
+            </table>
+        </section>
+
+        <section class="article">
+            <h3>Article By Joshua Fullmer</h3>
+            <img src="images/blossom-flowers.jpg" alt="blossoms">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed auctor. Mauris eu purus. Integer vehicula
+                lectus in orci. Integer ultrices. Nulla sollicitudin ligula sit amet nisl. Mauris pulvinar adipiscing
+                orci. Phasellus dignissim purus vel urna.</p>
+            <p>Nam nec neque sit amet nibh egestas commodo. Vestibulum ante ipsum primis in faucibus orci luctus et
+                ultrices posuere cubilia Curae; Vestibulum wisi wisi, viverra eu, pellentesque eget, tincidunt eu,
+                justo. Fusce ac risus at wisi malesuada convallis. Proin vel mauris ac lorem mattis molestie. Phasellus
+                vel velit ut erat faucibus laoreet.</p>
+            <p>Nam scelerisque. Pellentesque et enim nec purus euismod suscipit. Vivamus lacus lacus, faucibus vel,
+                lobortis vel, scelerisque ac, purus. Maecenas dapibus. Fusce congue congue lorem. Aenean egestas, pede
+                vitae rhoncus vehicula, leo libero blandit justo, quis mattis arcu orci ac mi. Vivamus urna.</p>
+            <p>Donec odio. Nulla mollis, massa eget auctor viverra, eros lorem posuere metus, vel sodales wisi lectus
+                et ligula. Maecenas suscipit metus sed nisl. Maecenas consectetuer purus et felis. Aliquam in tellus sit
+                amet augue vehicula vestibulum. Fusce purus felis, suscipit eget, euismod sit amet, laoreet a,
+                neque.</p>
+        </section>
+
+        <section class="mapcontact">
+            <div>
+                <h3>Contact Information</h3>
+                <div class="map">
+                    <img src="images/prestonmap.JPG" alt="preston map">
+                </div>
+            </div>
+            <div class="contact">
+                <p>
+                    1234 W Street<br>
+                    City, ST 99999<br>
+                    &phone; 999.999.9999<br>
+                    &#9993; email@domain.com<br>
+                </p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/social-facebookicon.png" alt="facebook icon" />
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img src="images/social-twittericon.png" alt="twitter icon" />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="images/social-instaicon.png" alt="instagram icon" />
+                    </a>
+                    <a href="https://www.pinterest.com/" target="_blank">
+                        <img src="images/social-pininteresticon.png" alt="pinterest icon" />
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Joshua K. Fullmer | Idaho |
+            <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+        </p>
+        <p class="updateline">
+            <span id="now"></span>
+        </p>
+    </footer>
+    <script src="js/navagation.js"></script>
+</body>
+
+</html>
