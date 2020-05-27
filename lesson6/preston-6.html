@@ -40,11 +40,15 @@
     <main>
         <h2>Preston Idaho</h2>
         <section class="summary">
-            <picture>
-                <source srcset="images/franklinMed.jpg" media="(min-width: 223px) and (max-width: 224px)">
+                <picture>
                     <source srcset="images/franklinLarge.jpg" media="(min-width: 225px")>
-                <img src="images/franklinSmall.jpg" alt="large waterfall banner">
+                    <source srcset="images/franklinMed.jpg" media="(min-width: 200px)">
+                <img src="images/franklinSmall.jpg"
+                srcset="images/"
+                    alt="preston hero banner">
+                >
             </picture>
+                
             <div id="weathersummary">
                 <h3>Weather Summary</h3>
                 <p>Currently: Sunny</p>
