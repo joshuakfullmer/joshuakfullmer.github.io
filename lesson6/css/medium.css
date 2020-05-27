@@ -27,9 +27,9 @@
         margin: 1em;
         font-size: larger;
     }
-    .summary img {
+    /* .summary img {
         margin-bottom: 0em;
-    }
+    } */
     .article img {
         float: right;
         margin-left: 1em;

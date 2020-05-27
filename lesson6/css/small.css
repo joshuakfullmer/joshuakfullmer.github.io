@@ -102,7 +102,7 @@ main section {
     border: 3px solid;
     border-radius: 15px;
     box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.71);
-    margin-bottom: 5em;
+    margin-bottom: 0em;
 }
 #weathersummary {
     position: absolute;
