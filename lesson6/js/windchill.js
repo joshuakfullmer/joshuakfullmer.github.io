@@ -7,6 +7,6 @@
     else {
         let windChill = "N/A"
     }
-    document.getElementById('windspeedspan').innerHTML = windSpeed;
-    document.getElementById('airspan').innerHTML = air;
-    document.getElementById('windchillspan').innerHTML = windChill;
+    document.getElementsByClassName('windspeedspan').innerHTML = windSpeed;
+    document.getElementsByClassName('airspan').innerHTML = air;
+    document.getElementsByClassName('windchillspan').innerHTML = windChill;
