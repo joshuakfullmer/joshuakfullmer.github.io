@@ -14,8 +14,8 @@ function getDate() {
     return now;
 }
 // last updated date
-document.getElementById('update').innerHTML = document.lastModified;
-document.getElementById('year').innerHTML = new Date().getFullYear();
+// document.getElementById('update').innerHTML = document.lastModified;
+// document.getElementById('year').innerHTML = new Date().getFullYear();
 
 // banner
 function banner() {

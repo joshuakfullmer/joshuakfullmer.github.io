@@ -40,14 +40,13 @@
     <main>
         <h2>Preston Idaho</h2>
         <section class="summary">
-                <picture>
-                    <source srcset="images/franklinLarge.jpg" media="(min-width: 765px)">
-                    <source srcset="images/franklinMed.jpg" media="(min-width: 500px)">
-                    <img src="images/franklinSmall.jpg"
-                    alt="preston hero banner">
+            <picture>
+                <source srcset="images/franklinLarge.jpg" media="(min-width: 765px)">
+                <source srcset="images/franklinMed.jpg" media="(min-width: 500px)">
+                <img src="images/franklinSmall.jpg" alt="preston hero banner">
                 >
             </picture>
-                
+
             <div id="weathersummary">
                 <h3>Weather Summary</h3>
                 <p>Currently: Sunny</p>
@@ -81,7 +80,11 @@
 
         <section class="article">
             <h3>Article By Joshua Fullmer</h3>
-            <img src="images/blossom-flowers.jpg" alt="blossoms">
+            <picture>
+                <source srcset="images/blossom-flowersLarge.jpg" media="(min-width: 765px)">
+                <source srcset="images/blossom-flowersMed.jpg" media="(min-width: 500px)">
+                <img src="images/blossom-flowersSmall.jpg" alt="blossom flowers">
+            </picture>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed auctor. Mauris eu purus. Integer vehicula
                 lectus in orci. Integer ultrices. Nulla sollicitudin ligula sit amet nisl. Mauris pulvinar adipiscing
                 orci. Phasellus dignissim purus vel urna.</p>
@@ -138,6 +141,7 @@
         </p>
     </footer>
     <script src="js/navagation.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>
