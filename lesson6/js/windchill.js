@@ -1,5 +1,4 @@
 
-function chill () {
     let windSpeed = 70;
     let air = 3;
     let windChill;
@@ -9,7 +8,6 @@ function chill () {
     else {
         windChill = "N/A";
     }
-    document.getElementsByClassName('windspeedspan').innerHTML = windSpeed;
+    document.getElementById('windspeedspan').innerHTML = windSpeed;
     document.getElementsByClassName('airspan').innerHTML = air;
     document.getElementsByClassName('windchillspan').innerHTML = windChill;
-}
