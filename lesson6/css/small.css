@@ -73,11 +73,10 @@ nav {
     color: black;
     padding: .6em;
     font-size: larger;
+    border-radius: .75rem;
 }
 .navbar a:hover {
-    color: black;
     font-weight: bold;
-    border-radius: .75rem;
 }
 .responsive li {
     display: block;
@@ -85,7 +84,6 @@ nav {
 .active {
     color: black;
     font-weight: bold;
-    border-radius: .75rem;
 }
 
 /* content */
