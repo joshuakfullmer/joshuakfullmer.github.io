@@ -18,6 +18,7 @@ function getDate() {
 // document.getElementById('year').innerHTML = new Date().getFullYear();
 
 // banner
+banner();
 function banner() {
     let daynum = day.getDay();
     let show = document.getElementById('banner');
