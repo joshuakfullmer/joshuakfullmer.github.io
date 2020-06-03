@@ -1,5 +1,6 @@
 picture {
     display: block;
+    padding: 5px;
 }
 img[data-src] {
     filter: blur(0.2em);
@@ -7,4 +8,7 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter 0.5s;
+}
+body {
+    text-align: center;
 }
