@@ -184,6 +184,44 @@ tr td, tr th {
     width: 65px;
     max-width: 70%;
 }
+/* gallery */
+.gal-grid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    margin: 1.5em;
+
+}
+.gal-grid div {
+    border: 1px solid black;
+}
+.gal-grid div:hover {
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75) ;
+    transition: .2s;
+}
+.gal-grid picture img {
+    max-width: 100%;
+}
+.gal-grid p {
+    margin: 0;
+    padding: .2em;
+    
+}
+.gal-grid picture {
+    display: block;
+}
+/* lazy load */
+img[data-src] {
+    filter: blur(0.2em);
+}
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+body {
+    text-align: center;
+}
 /* footer */
 footer {
     background-color: #6BE871;
