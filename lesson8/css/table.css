@@ -1,7 +1,7 @@
 body {
-    margin: 10px auto;
-    display: flex;
     justify-content: center;
+    margin: 2em auto;
+    display: flex;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -19,26 +19,25 @@ td, th {
 th {
     color: black;
 }
-thead, #novgoal {
-    background: #57939c;
-    color: white;
-}
-thead {
-    font-size: 1.7em;
-    font-weight: bold;
-}
-
 
 tbody tr {
     background: #e7f0ed;
 }
 
-tr:nth-child {
-    background-color: #bce6f3;
+tr:nth-child(even) {
+    background-color: #e7ffed;
 }
-
+thead {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+thead, #novgoal {
+    background: #628ca6;
+    color: white;
+}
 tfoot {
     color: black;
     background: #7fb9c2;
+    
     font-size: .7em;
 }
