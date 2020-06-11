@@ -1,0 +1,44 @@
+body {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table {
+    text-align: center;
+    border-spacing: 0;
+    border: .5px solid gray;
+    box-shadow: 10px 10px 11px 1px rgba(143,154,163,1);
+}
+
+td, th {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 8px;
+}
+th {
+    color: black;
+}
+thead, #novgoal {
+    background: #57939c;
+    color: white;
+}
+thead {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+
+tbody tr {
+    background: #e7f0ed;
+}
+
+tr:nth-child {
+    background-color: #bce6f3;
+}
+
+tfoot {
+    color: black;
+    background: #7fb9c2;
+    font-size: .7em;
+}
