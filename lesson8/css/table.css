@@ -8,7 +8,7 @@ body {
 table {
     text-align: center;
     border-spacing: 0;
-    border: .5px solid gray;
+    /* border: .5px solid gray; */
     box-shadow: 10px 10px 11px 1px rgba(143,154,163,1);
 }
 
