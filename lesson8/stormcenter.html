@@ -8,9 +8,9 @@
     <meta name="description" content="The Preston Idaho page from the 'Weather Me This' website.">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/stormcenter-small.css">
     <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/large.css">>
 </head>
 
 <body>
@@ -36,14 +36,14 @@
         </ul>
     </nav>
     <main>
+        <h2>Submit Local Weather</h2>
+        <p>Experiencing crazy weather? Let us know!</p>
         <form method="GET" action="thanks.html" autocomplete="on">
-            <h2>Submit Local Weather</h2>
-            <p>Experiencing crazy weather? Let us know!</p>
-            <hr>
+
             <fieldset>
-                <label>Full Name
-                    <input type="text" name="fullname" placeholder="Your full name" required><small>Please
-                    Type your full name, and insure that it is at least 5 characters.</small>
+                <label>Name
+                    <input type="text" name="fullname" placeholder="Your full name" required>
+                    <p>Please type your full name, and insure that it has at least 5 characters.</p>
                 </label>
                 <label>Email
                     <input type="email" name="email" placeholder="email@domain.com">
@@ -55,7 +55,7 @@
                     <input type="number" name="zip" required>
                 </label>
             </fieldset>
-            <fieldset >
+            <fieldset>
                 <label>Date of Storm
                     <input type="date" name="stormdate">
                 </label>
@@ -69,24 +69,12 @@
                         <option value="Lightning">
                     </datalist>
                 </label>
+                <br>
                 <label for="rating">Storm Rating
-                    <input type="range" id="rating" value="1" min="1" max="10" step="1" list="rangeMarks"
-                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <br><span id="ratingValue">1</span>
+                    <input type="range" id="rating" value="1" min="1" max="10" list="rangeMarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span
+                        id="ratingvalue">1</span>
                 </label>
-                <datalist id="rangeMarks">
-                    <option value="0">
-                    <option value="1">
-                    <option value="2">
-                    <option value="3">
-                    <option value="4">
-                    <option value="5">
-                    <option value="6">
-                    <option value="7">
-                    <option value="8">
-                    <option value="9">
-                    <option value="10">
-                </datalist>
                 <label>Storm Region
                     <select name="region">
                         <option value="" disabled selected>Select Region ...</option>
@@ -96,7 +84,7 @@
                     </select>
                 </label>
             </fieldset>
-            <fieldset >
+            <fieldset class="danger">
                 <p>Are you or the locals in danger?</p>
                 <label>
                     <input type="radio" name="danger" value="yes">
@@ -111,9 +99,12 @@
                     No
                 </label>
             </fieldset>
-            <label>Comments
-                <textarea placeholder="If you have anything else to tell us, please feel free to let us know!"></textarea>
-            </label>
+            <fieldset>
+                <label>Comments<br>
+                    <textarea
+                        placeholder="If you have anything else to tell us, please feel free to let us know!"></textarea>
+                </label>
+            </fieldset>
             <input type="submit" value="Report Weather">
         </form>
     </main>
@@ -126,12 +117,16 @@
         </p>
     </footer>
     <script src="js/navagation.js"></script>
-    <script src="js/windchill.js"></script>
+    <script>
+        function adjustRating(rating) {
+            document.getElementById("ratingvalue").innerHTML = rating;
+        }
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
             google: {
-                families: ['Neuton', 'Russo One', 'Taviraj',]
+                families: ['Neuton', 'Russo One', 'Taviraj', ]
             }
         });
     </script>
