@@ -94,7 +94,10 @@ p {
 form {
     text-align: center;
     border: 2px solid black;
-    margin: 5px;
+    margin: 15px;
+    background: rgb(255, 252, 241);
+    box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.71);
+    padding-bottom: 1em;
 }
 fieldset {
     display: flex;
