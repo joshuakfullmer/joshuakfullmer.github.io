@@ -43,8 +43,9 @@
             <fieldset>
                 <label>Name
                     <input type="text" name="fullname" placeholder="Your full name" required>
-                    <p>Please type your full name, and insure that it has at least 5 characters.</p>
+                    
                 </label>
+                <p>Please type your full name, and insure that it has at least 5 characters.</p>
                 <label>Email
                     <input type="email" name="email" placeholder="email@domain.com">
                 </label>
@@ -54,8 +55,6 @@
                 <label>Zip Code
                     <input type="number" name="zip" required>
                 </label>
-            </fieldset>
-            <fieldset>
                 <label>Date of Storm
                     <input type="date" name="stormdate">
                 </label>
@@ -69,7 +68,6 @@
                         <option value="Lightning">
                     </datalist>
                 </label>
-                <br>
                 <label for="rating">Storm Rating
                     <input type="range" id="rating" value="1" min="1" max="10" list="rangeMarks"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span

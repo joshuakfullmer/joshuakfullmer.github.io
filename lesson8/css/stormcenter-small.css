@@ -94,10 +94,12 @@ p {
 form {
     text-align: center;
     border: 2px solid black;
+    margin: 5px;
 }
 fieldset {
-    /* display: flex; */
+    display: flex;
     border: none;
+
 }
 input {
     padding: 5px;
@@ -111,11 +113,15 @@ label {
 .danger {
     display: inline;
 }
-label p, .danger p {
+fieldset p, .danger p {
     font-size: smaller;
 }
 .danger label {
     padding: .5em;
+}
+textarea {
+    height: 100px;
+    width: 80%;
 }
 
 /* footer */
