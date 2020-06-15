@@ -1,0 +1,31 @@
+/* phone windows */
+@media only screen and (min-width: 940px) {
+    main, footer {
+        max-width: 920px;
+        margin: 0 auto;
+    }
+    #weathersummary {
+        top: 32px;
+    }
+    .socials a img {
+        width: 64px;
+    }
+    .article img {
+        width: 425px;
+    }
+    .contact p {
+        margin-top: 4em;
+    }
+    .gal-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* .gal-grid div {
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75) ;
+        transition: .2s;
+        border: none;
+    } */
+    .gal-grid div:hover {
+        box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75) ;
+        transition: .2s;
+    }
+}
