@@ -91,6 +91,13 @@ main section {
     margin: 25px auto;
     padding: 1px;
 }
+/* home page */
+#homegrid {
+    display: block;
+}
+#homegrid a {
+    border: 1px solid black;
+}
 /* weather summary */
 .summary {
     position: relative;
