@@ -16,20 +16,21 @@
     .navbar li:first-child {
         display: none;
     }
+/* home page  */
+    .cards {
+        /* grid-template-columns: 1fr; */
+    }
+/* preston page  */
     .forecast {
         display: table;
     }
     #weathersummary {
-
         max-width: 250px;
     }
     #weathersummary p, #weathersummary h3{
         margin: 1em;
         font-size: larger;
     }
-    /* .summary img {
-        margin-bottom: 0em;
-    } */
     .article img {
         float: right;
         margin-left: 1em;
@@ -53,6 +54,7 @@
     .map {
         display: block;
     }
+/* gallery */
     .gal-grid {
         grid-template-columns: 1fr 1fr;
     }
