@@ -87,23 +87,22 @@ nav {
 }
 
 /* home page */
-
 .cards {
     display: grid;
     grid-template-columns: 1fr;
+    margin: 1em;
 }
 section {
-    width: 600px;
     border: 1px solid black;
     background: cornsilk;
-    margin: .5rem auto;
-}
-section:nth-child(even) {
-    flex-direction: row-reverse;
+    margin: 1em;
 }
 img {
-    width: 100px;
-    max-width: 100%;
+    /* width: 100px; */
+    max-width: 400px;
+}
+div {
+    padding: 1em;
 }
 
 /* lazy load */

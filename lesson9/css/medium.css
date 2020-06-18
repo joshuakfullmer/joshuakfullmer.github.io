@@ -18,8 +18,19 @@
     }
 /* home page  */
     .cards {
-        /* grid-template-columns: 1fr; */
+        grid-template-columns: 1fr;
     }
+    section div:nth-child(odd) {
+        flex: 2fr;
+    }
+    section {
+        display: flex;
+    }
+    section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+
 /* preston page  */
     .forecast {
         display: table;
