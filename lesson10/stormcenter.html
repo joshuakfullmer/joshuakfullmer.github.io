@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center</title>
+    <meta name="description" content="The Preston Idaho page from the 'Weather Me This' website.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stormcenter-small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <aside id="banner" style="display: block">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <img class="icon" src="images/weathericon.png" alt="weather me this logo">
+        <div>
+            <h1>Weather Me This</h1>
+            <h2>Predicting the Weather is No Riddle</h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li><a class="ham" onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+            <li><a href="gallery-10.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Submit Local Weather</h2>
+        <p>Experiencing crazy weather? Let us know!</p>
+        <form method="GET" action="thanks.html" autocomplete="on">
+
+            <fieldset>
+                <label>Name
+                    <input type="text" name="fullname" placeholder="Your full name" pattern="[A-Za-z ]{5,}" required>
+                    
+                </label>
+                <p>Please type your full name, and insure that it has at least 5 characters.</p>
+                <label>Email
+                    <input type="email" name="email" placeholder="email@domain.com">
+                </label>
+                <label>Phone
+                    <input type="tel" name="phone" placeholder="+1(000)000-0000" required>
+                </label>
+                <label>Zip Code
+                    <input type="number" name="zip" required>
+                </label>
+                <label>Date of Storm
+                    <input type="date" name="stormdate">
+                </label>
+                <label>Type of Storm
+                    <input name="stormtype" list="stormtype">
+                    <datalist id="stormtype">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Blizzard">
+                        <option value="Lightning">
+                    </datalist>
+                </label>
+                <label for="rating">Storm Rating
+                    <input type="range" id="rating" value="1" min="1" max="10"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span
+                        id="ratingvalue">1</span>
+                </label>
+                <label>Storm Region
+                    <select name="region">
+                        <option value="" disabled selected>Select Region ...</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset class="danger">
+                <p>Are you or the locals in danger?</p>
+                <label>
+                    <input type="radio" name="danger" value="yes">
+                    Yes
+                </label>
+                <label>
+                    <input type="radio" name="danger" value="maybe">
+                    Maybe
+                </label>
+                <label>
+                    <input type="radio" name="danger" value="no">
+                    No
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Comments<br>
+                    <textarea
+                        placeholder="If you have anything else to tell us, please feel free to let us know!"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Report Weather">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Joshua K. Fullmer | Idaho |
+            <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+        </p>
+        <p class="updateline">
+            <span id="now"></span>
+        </p>
+    </footer>
+    <script src="js/navagation.js"></script>
+    <script>
+        function adjustRating(rating) {
+            document.getElementById("ratingvalue").innerHTML = rating;
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Neuton', 'Russo One', 'Taviraj', ]
+            }
+        });
+    </script>
+</body>
+
+</html>

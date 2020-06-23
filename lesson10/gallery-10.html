@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Gallery</title>
+    <meta name="description" content="Gallery page from the 'Weather Me This' website.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <aside id="banner" style="display: block">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <img class="icon" src="images/weathericon.png" alt="weather me this logo">
+        <div>
+            <h1>Weather Me This</h1>
+            <h2>Predicting the Weather is No Riddle</h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li><a class="ham" onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-10.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="gal-grid">
+            <div>
+                <picture>
+                    <img src="images/galplaceholder.jpg" data-src="images/gal1.jpg" alt="Sunny Snowy Road">
+                </picture>
+                <p>Sunny Snowy Road</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/galplaceholder.jpg" data-src="images/gal2.jpg" alt="Beautiful Rolling Hills">
+                </picture>
+                <p>Beautiful Rolling Hills</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/galplaceholder.jpg" data-src="images/gal3.jpg" alt="Snowy Road with Semi-Truck">
+                </picture>
+                <p>Snowy Road with Semi-Truck</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/galplaceholder.jpg" data-src="images/gal4.jpg" alt="Snowy Golf Course">
+                </picture>
+                <p>Snowy Golf Course</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/galplaceholder.jpg" data-src="images/gal5.jpg" alt="Snow Shoe Hike">
+                </picture>
+                <p>Snow Shoe Hike</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/galplaceholder.jpg" data-src="images/gal6.jpg" alt="Green Field With Trees">
+                </picture>
+                <p>Green Field With Trees</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/galplaceholder.jpg" data-src="images/gal7.jpg" alt="Snow-covered Pine Tree">
+                </picture>
+                <p>Snow-covered Pine Tree</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/galplaceholder.jpg" data-src="images/gal8.jpg" alt="Broken Tree in Storm">
+                </picture>
+                <p>Broken Tree in Storm</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/galplaceholder.jpg" data-src="images/gal9.jpg" alt="Abandoned Swing Set in a Park">
+                </picture>
+                <p>Abandoned Swing Set in a Park</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Joshua K. Fullmer | Idaho |
+            <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+        </p>
+        <p class="updateline">
+            <span id="now"></span>
+        </p>
+    </footer>
+    <script src="js/navagation.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Neuton', 'Russo One', 'Taviraj', ]
+            }
+        });
+    </script>
+    <script src="js/lazyload.js"></script>
+</body>
+
+</html>
