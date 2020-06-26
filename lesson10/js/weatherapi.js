@@ -34,7 +34,7 @@ fetch(apiURL2)
       fiveday.foreach(fiveDayForecast => {
         document.getElementById('temp${i}').innerHTML = '${main.temp.toFixed(0)°F';
         document.getElementById('day${i}').innerHTML = weekday[(new Date(fiveDayForecast.dt_txt)).getDay()];
-        document.getElementById('fi${i}').setAttribute('src', 'images/' + '$eachDay.weather[0].main');
+        document.getElementById('fi${i}').setAttribute('src', 'images/' + '$eachDay.weather[0].main' + '.png');
         document.getElementById('fi${i}').setAttribute('alt', '$eachDay.weather[0].main' + 'icon');
         i++;
       });
