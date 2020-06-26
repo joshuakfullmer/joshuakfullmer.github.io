@@ -101,6 +101,7 @@ main section {
 /* weather summary */
 .summary {
     position: relative;
+    border: none;
 }
 .summary img {
     max-width: 100%;
@@ -128,6 +129,7 @@ main section {
 .forecast {
     display: none;
     text-align: center;
+    background: rgb(255, 250, 232);
     padding: 10px;
     border-radius: 15px;
     box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.71);
@@ -140,7 +142,7 @@ table {
 tr td, tr th {
     border: 2px solid;
     /* padding: 1em; */
-    background: #e4e4e4;
+    background: #f1f1f1;
 }
 /* article */
 .article {
@@ -150,6 +152,9 @@ tr td, tr th {
 }
 .article p {
     text-indent: 50px;
+}
+.article:nth-child(even) {
+    display: block;
 }
 .article img {
     float: none;

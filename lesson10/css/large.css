@@ -13,7 +13,7 @@
     section {
         
         border: 1px solid black;
-        background: cornsilk;
+        
         margin: .5rem auto;
         display: flex;
         flex-direction: column;
