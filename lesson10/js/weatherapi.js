@@ -10,6 +10,7 @@ fetch(apiURL)
     document.getElementById('humidity').textContent = jsObject.main.humidity;
     document.getElementById('windspeedspan').textContent = jsObject.wind.speed.toFixed(0);
   });
+
 let windSpeed = document.getElementById('windspeedspan').textContent;
 let air = document.getElementById('airspan').textContent;
 let windChill;
