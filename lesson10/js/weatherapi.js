@@ -1,5 +1,6 @@
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=8d1e99c71142778033ed100013bf9069';
-const apiPrac = '{"coord":{"lon":-111.88,"lat":42.1},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":70.39,"feels_like":69.66,"temp_min":69.01,"temp_max":72,"pressure":1021,"humidity":52},"visibility":16093,"wind":{"speed":2.39,"deg":289},"clouds":{"all":1},"dt":1593189511,"sys":{"type":1,"id":4701,"country":"US","sunrise":1593172400,"sunset":1593227249},"timezone":-21600,"id":5604473,"name":"Preston","cod":200}'
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=8d1e99c71142778033ed100013bf9069';
+
 // weather summary 
 fetch(apiURL)
   .then((response) => response.json())
@@ -23,7 +24,6 @@ else {
 document.getElementById('windchillspan').innerHTML = windChill;
 
 // five-day forecast 
-const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=8d1e99c71142778033ed100013bf9069'
 fetch(apiURL2)
     .then((response) => response.json())
     .then((jsObject) => {
