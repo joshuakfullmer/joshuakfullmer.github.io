@@ -31,7 +31,7 @@ fetch(apiURL2)
       const fiveday = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
       let i = 0;
       fiveday.forEach(fiveDayForecast => {
-        document.getElementById('temp${i}').innerHTML = '${main.temp.toFixed(0)°F';
+        document.getElementById('temp${i}').innerHTML = '${main.temp.toFixed(0)}°F';
         document.getElementById('day${i}').innerHTML = weekday[(new Date(fiveDayForecast.dt_txt)).getDay()];
         document.getElementById('fi${i}').setAttribute('src', 'images/' + '$fiveDayForecast.weather[0].main' + '.png');
         document.getElementById('fi${i}').setAttribute('alt', '$fiveDayForecast.weather[0].main' + 'icon');
