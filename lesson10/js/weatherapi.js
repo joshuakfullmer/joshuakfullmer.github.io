@@ -28,12 +28,12 @@ fetch(apiURL2)
     .then((response) => response.json())
     .then((jsObject) => {
       const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-      const fiveday = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
+      const fiveday = jsonObject.list.filter(x => x.dt_txt.includes("18:00:00"));
       let i = 0;
       fiveday.forEach(forecast => {
-        let forecast = jsonObject.list[i];
+        let day = new Date(forecast.dt_txt);
         document.getElementById('temp${i}').innerHTML = forecast.main.temp.toFixed(0);
-        document.getElementById('day${i}').innerHTML = weekday[(new Date(forecast.dt_txt)).getDay()];
+        document.getElementById('day${i}').innerHTML = weekday[day.getDay()];
         // document.getElementById('fi${i}').setAttribute('src', 'images/' + forecast.weather[0].main + '.png');
         // document.getElementById('fi${i}').setAttribute('alt', forecast.weather[0].main + 'icon');
         i++;
