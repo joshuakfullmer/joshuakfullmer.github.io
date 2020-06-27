@@ -35,8 +35,8 @@ fetch(fivedayapiURL)
         let day = new Date(forecast.dt_txt);
         document.getElementById('temp${i}').innerHTML = forecast.main.temp.toFixed(0);
         document.getElementById('day${i}').innerHTML = weekday[day.getDay()];
-        // document.getElementById('fi${i}').setAttribute('src', 'images/' + forecast.weather[0].main + '.png');
-        // document.getElementById('fi${i}').setAttribute('alt', forecast.weather[0].main + 'icon');
+        document.getElementById('fi${i}').setAttribute('src', 'images/' + 'forecast.weather[0].main' + '.png');
+        document.getElementById('fi${i}').setAttribute('alt', 'forecast.weather[0].main' + 'icon');
         i++;
       });
     });
