@@ -1,5 +1,5 @@
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=8d1e99c71142778033ed100013bf9069';
-const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=8d1e99c71142778033ed100013bf9069';
+
 
 // weather summary 
 fetch(apiURL)
@@ -24,11 +24,12 @@ else {
 document.getElementById('windchillspan').innerHTML = windChill;
 
 // five-day forecast 
-fetch(apiURL2)
+const fivedayapiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=8d1e99c71142778033ed100013bf9069';
+fetch(fivedayapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
       const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-      const fiveday = jsonObject.list.filter(x => x.dt_txt.includes("18:00:00"));
+      const fiveday = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
       let i = 0;
       fiveday.forEach(forecast => {
         let day = new Date(forecast.dt_txt);
