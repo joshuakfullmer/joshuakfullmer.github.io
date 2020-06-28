@@ -28,15 +28,16 @@ const fivedayapiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=56044
 fetch(fivedayapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-      const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-      const fiveday = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
-      let i = 0;
-      fiveday.forEach(forecast => {
-        let day = new Date(forecast.dt_txt);
-        document.getElementById('temp${i}').textContent = forecast.main.temp.toFixed(0);
-        document.getElementById('day${i}').textContent = weekday[day.getDay()];
-        document.getElementById('fi${i}').setAttribute('src', 'images/' + 'forecast.weather[0].main' + '.png');
-        document.getElementById('fi${i}').setAttribute('alt', 'forecast.weather[0].main' + 'icon');
-        i++;
-      });
+        const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+        const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        let i = 0;
+        fivedayforecast.forEach(forecast => {
+            let d = new Date(forecast.dt_txt);
+            document.getElementById(`forecast${day}`).textContent = forecast.main.temp;
+            document.getElementById(`dayofweek${day}`).textContent = weekdays[d.getDay()];
+            document.getElementById(`icon${day}`).src = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
+            document.getElementById(`icon${day}`).alt = forecast.weather[0].main + ' icon';
+            i++;
+        });
+
     });
