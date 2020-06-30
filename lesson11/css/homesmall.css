@@ -1,0 +1,131 @@
+/* big windows */
+/* defaults */
+body {
+    font-family: 'Neuton', serif;
+    background-color: white;
+    margin: 0 auto;
+}
+aside {
+    background-color: #83FFF3;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 3px 19px -3px rgba(0,0,0,0.71);
+}
+aside p {
+    margin: 0;
+}
+header,
+footer {
+    padding: 1rem;
+    color: black;
+    text-align: center;
+}
+header {
+    background-color: #b5ff97;
+    justify-content: center;
+}
+.icon {
+    width: 146px;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+}
+h2, h3 {
+    margin-left: .5em;
+    font-family: 'Taviraj', serif;
+    text-align: center;
+}
+h3 {
+    text-align: left;
+    padding-left: .5em;
+}
+p {
+    margin: 1.6em;
+    font-size: 18px;
+    line-height: initial;
+}
+li p {
+    line-height: 1em;
+}
+/* navagation */
+nav {
+    margin: 0 auto;
+    background-color: #6BE871;
+}
+.navbar {
+    list-style: none;
+    padding: 0;
+    max-width: 970px;
+    margin: auto;
+}
+.navbar li:first-child {
+    display: block;
+    font-weight: bold;
+}
+.navbar li {
+    display: none;
+}
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: .6em;
+    font-size: larger;
+    border-radius: .75rem;
+}
+.navbar a:hover {
+    font-weight: bold;
+}
+.responsive li {
+    display: block;
+}
+.active {
+    color: black;
+    font-weight: bold;
+}
+
+/* home page */
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1em;
+}
+section {
+    border: 1px solid black;
+    background: cornsilk;
+    margin: 1em;
+}
+img {
+    /* width: 100px; */
+    max-width: 400px;
+}
+div {
+    padding: 1em;
+}
+
+/* lazy load */
+img[data-src] {
+    filter: blur(0.2em);
+}
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+body {
+    text-align: center;
+}
+/* footer */
+footer {
+    background-color: #6BE871;
+}
+footer a {
+    color: black;
+}
+footer p {
+    margin-left: 0;
+}
+.updateline {
+    color: #404040;
+}
