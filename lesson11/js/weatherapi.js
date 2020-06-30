@@ -30,14 +30,13 @@ fetch(fivedayapiURL)
     .then((jsObject) => {
         const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
         const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-        let i = 0;
+        let day = 0;
         fivedayforecast.forEach(forecast => {
             let d = new Date(forecast.dt_txt);
-            document.getElementById(`forecast${day}`).textContent = forecast.main.temp;
-            document.getElementById(`dayofweek${day}`).textContent = weekdays[d.getDay()];
-            document.getElementById(`icon${day}`).src = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
-            document.getElementById(`icon${day}`).alt = forecast.weather[0].main + ' icon';
-            i++;
+            document.getElementById(`forecast${day+1}`).textContent = forecast.main.temp;
+            document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
+            document.getElementById(`icon${day+1}`).src = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
+            document.getElementById(`icon${day+1}`).alt = forecast.weather[0].main + ' icon';
+            day++;
         });
-
     });
