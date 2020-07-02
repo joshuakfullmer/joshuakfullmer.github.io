@@ -11,13 +11,11 @@ function getDate() {
     let month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     let now = dayOfWeek[day.getDay()] + ", " + day.getDate() + " " + month[day.getMonth()] + " " + day.getFullYear();
+    let year = day.getFullYear();
+    document.getElementById('year').innerHTML = year;
     return now;
 }
-// last updated date
-// document.getElementById('update').innerHTML = document.lastModified;
-// document.getElementById('year').innerHTML = new Date().getFullYear();
-
-// banner
+// pancakes banner
 banner();
 function banner() {
     let daynum = day.getDay();
