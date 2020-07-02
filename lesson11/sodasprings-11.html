@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda Springs Idaho Weather</title>
+    <meta name="description" content="The Soda Springs Idaho page from the 'Weather Me This' website.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <aside id="banner" style="display: block">
+        <p>Saturday = Soda Springs Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <img class="icon" src="images/weathericon.png" alt="weather me this logo">
+        <div>
+            <h1>Weather Me This</h1>
+            <h2>Predicting the Weather is No Riddle</h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li><a class="ham" onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-11.html" class="active">Preston</a></li>
+            <li><a href="sodasprings-11.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-11.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Soda Springs Idaho</h2>
+        <section class="summary">
+            <picture>
+                <source srcset="images/franklinLarge.jpg" media="(min-width: 765px)">
+                <source srcset="images/franklinMed.jpg" media="(min-width: 500px)">
+                <img src="images/franklinSmall.jpg" alt="Soda Springs hero banner">
+            </picture>
+
+            <div id="weathersummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="current"></span></p>
+                <p>High: <span id="airspan"></span>°F</p>
+                <p>Wind Chill: <span id="windchillspan"></span></p> 
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Wind: <span id="windspeedspan"></span> mph</p>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <tr>
+                    <th><span id="day1"></span></th>
+                    <th><span id="day2"></span></th>
+                    <th><span id="day3"></span></th>
+                    <th><span id="day4"></span></th>
+                    <th><span id="day5"></span></th>
+                </tr>
+                <tr>
+                    <td><img id= "icon1" src="#" alt=""><br><span id="temp1"></span></td>
+                    <td><img id= "icon2" src="#" alt=""><br><span id="temp2"></span></td>
+                    <td><img id= "icon3" src="#" alt=""><br><span id="temp3"></span></td>
+                    <td><img id= "icon4" src="#" alt=""><br><span id="temp4"></span></td>
+                    <td><img id= "icon5" src="#" alt=""><br><span id="temp5"></span></td>
+                </tr>
+
+            </table>
+        </section>
+
+        <section class="article">
+            <h3>Article By Joshua Fullmer</h3>
+            <picture>
+                <source srcset="images/blossom-flowersLarge.jpg" media="(min-width: 765px)">
+                <source srcset="images/blossom-flowersMed.jpg" media="(min-width: 500px)">
+                <img src="images/blossom-flowersSmall.jpg" alt="blossom flowers">
+            </picture>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed auctor. Mauris eu purus. Integer vehicula
+                lectus in orci. Integer ultrices. Nulla sollicitudin ligula sit amet nisl. Mauris pulvinar adipiscing
+                orci. Phasellus dignissim purus vel urna.</p>
+            <p>Nam nec neque sit amet nibh egestas commodo. Vestibulum ante ipsum primis in faucibus orci luctus et
+                ultrices posuere cubilia Curae; Vestibulum wisi wisi, viverra eu, pellentesque eget, tincidunt eu,
+                justo. Fusce ac risus at wisi malesuada convallis. Proin vel mauris ac lorem mattis molestie. Phasellus
+                vel velit ut erat faucibus laoreet.</p>
+            <p>Nam scelerisque. Pellentesque et enim nec purus euismod suscipit. Vivamus lacus lacus, faucibus vel,
+                lobortis vel, scelerisque ac, purus. Maecenas dapibus. Fusce congue congue lorem. Aenean egestas, pede
+                vitae rhoncus vehicula, leo libero blandit justo, quis mattis arcu orci ac mi. Vivamus urna.</p>
+            <p>Donec odio. Nulla mollis, massa eget auctor viverra, eros lorem posuere metus, vel sodales wisi lectus
+                et ligula. Maecenas suscipit metus sed nisl. Maecenas consectetuer purus et felis. Aliquam in tellus sit
+                amet augue vehicula vestibulum. Fusce purus felis, suscipit eget, euismod sit amet, laoreet a,
+                neque.</p>
+        </section>
+
+        <section class="mapcontact">
+            <div>
+                <h3>Contact Information</h3>
+                <div class="map">
+                    <img src="images/prestonmap.JPG" alt="Soda Springs map">
+                </div>
+            </div>
+            <div class="contact">
+                <p>
+                    1234 W Street<br>
+                    City, ST 99999<br>
+                    &phone; 999.999.9999<br>
+                    &#9993; email@domain.com<br>
+                </p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/social-facebookicon.png" alt="facebook icon" />
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img src="images/social-twittericon.png" alt="twitter icon" />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="images/social-instaicon.png" alt="instagram icon" />
+                    </a>
+                    <a href="https://www.pinterest.com/" target="_blank">
+                        <img src="images/social-pininteresticon.png" alt="pinterest icon" />
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Joshua K. Fullmer | Idaho |
+            <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+        </p>
+        <p class="updateline">
+            <span id="now"></span>
+        </p>
+    </footer>
+    <script src="js/navagation.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Neuton', 'Russo One', 'Taviraj',]
+            }
+        });
+    </script>
+</body>
+
+</html>
