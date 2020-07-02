@@ -115,7 +115,7 @@ main section {
     top: 10px;
     left: 40px;
     max-width: 70%;
-    background-color: white;
+    background-color: #ffffff97;
     padding-right: .7em;
     border: 1px solid;
     box-shadow: 0px 3px 19px -3px rgba(0,0,0,0.71);
@@ -124,6 +124,23 @@ main section {
 #weathersummary p, #weathersummary h3 {
     margin: .3em;
     font-size: 1.4em;
+}
+/* events */
+.eventdiv {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    max-width: 70%;
+    background-color: #ffffff60;
+    padding-right: .7em;
+    border: 1px solid;
+    box-shadow: 0px 3px 19px -3px rgba(0,0,0,0.71);
+    border-radius: 10px;
+}
+.eventdiv li, .eventdiv h3 {
+    margin: .3em;
+    font-size: 1.4em;
+    list-style-type: none;
 }
 /* 5 day forcast */
 .forecast {

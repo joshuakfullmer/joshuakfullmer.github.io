@@ -40,3 +40,21 @@ fetch(fivedayapiURL)
             i++;
         });
     });
+
+// Event Writer
+
+const eventURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(eventURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+      const soda = jsonObject.towns.find(town => {
+        return town.name == 'Soda Springs';
+      }).events;
+      soda.forEach(event => {
+        let li = document.createElement('li');
+        li.innerHTML = event;
+        document.getElementById('currentsevents').appendChild(li);
+      });
+    });

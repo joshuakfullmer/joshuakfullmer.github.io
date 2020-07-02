@@ -40,3 +40,21 @@ fetch(fivedayapiURL)
             i++;
         });
     });
+
+// Event Writer
+
+const eventURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(eventURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+      const fish = jsonObject.towns.find(town => {
+        return town.name == 'Fish Haven';
+      }).events;
+      fish.forEach(event => {
+        let li = document.createElement('li');
+        li.innerHTML = event;
+        document.getElementById('currentfevents').appendChild(li);
+      });
+    });

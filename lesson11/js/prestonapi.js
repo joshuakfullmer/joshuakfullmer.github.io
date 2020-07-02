@@ -40,3 +40,27 @@ fetch(fivedayapiURL)
             i++;
         });
     });
+
+// Event Writer
+
+const eventURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(eventURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+      const preston = jsonObject.towns.find(town => {
+        return town.name == 'Preston';
+      }).events;
+      preston.forEach(event => {
+        let li = document.createElement('li');
+        li.innerHTML = event;
+        document.getElementById('currentpevents').appendChild(li);
+      });
+    });
+
+    // "events": [
+    //   "March 29: Work Creek Revival",
+    //   "July 8-12: Napoleon Dynamite Festival",
+    //   "November 2-4: Freedom Days"
+    // ]
