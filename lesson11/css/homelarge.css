@@ -8,14 +8,13 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
     section {
-        
         border: 1px solid black;
         background: cornsilk;
         margin: .5rem auto;
         display: flex;
         flex-direction: column;
     }
-    section:nth-child(even) {
+    section:nth-child(odd) {
         flex-direction: column;
     }
 

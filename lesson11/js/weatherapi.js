@@ -1,7 +1,5 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=8d1e99c71142778033ed100013bf9069';
-
-
 // weather summary 
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=8d1e99c71142778033ed100013bf9069';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -33,8 +31,8 @@ fetch(fivedayapiURL)
         let day = 0;
         fivedayforecast.forEach(forecast => {
             let d = new Date(forecast.dt_txt);
-            document.getElementById(`forecast${day+1}`).textContent = forecast.main.temp;
-            document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
+            document.getElementById(`temp${day+1}`).textContent = forecast.main.temp;
+            document.getElementById(`day${day+1}`).textContent = weekdays[d.getDay()];
             document.getElementById(`icon${day+1}`).src = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
             document.getElementById(`icon${day+1}`).alt = forecast.weather[0].main + ' icon';
             day++;

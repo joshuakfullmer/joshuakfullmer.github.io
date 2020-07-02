@@ -1,3 +1,4 @@
+
 /* tablet windows */
 @media only screen and (min-width: 660px) {
     header {
@@ -21,7 +22,7 @@
         grid-template-columns: 1fr;
     }
     section div:nth-child(odd) {
-        flex: 2fr;
+        flex-direction: row;;
     }
     section {
         display: flex;
