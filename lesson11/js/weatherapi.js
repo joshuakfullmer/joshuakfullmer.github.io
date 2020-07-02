@@ -33,10 +33,10 @@ fetch(fivedayapiURL)
         let i = 0;
         fivedayforecast.forEach(forecast => {
             let day = new Date(forecast.dt_txt);
-            document.getElementById(`temp${day + i}`).textContent = forecast.main.temp;
-            document.getElementById(`day${day + i}`).textContent = weekday[day.getDay()];
-            document.getElementById(`icon${day + i}`).src = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
-            document.getElementById(`icon${day + i}`).alt = forecast.weather[0].main + ' icon';
+            document.getElementById(`temp${i + 1}`).textContent = forecast.main.temp;
+            document.getElementById(`day${i + 1}`).textContent = weekday[day.getDay()];
+            document.getElementById(`icon${i + 1}`).src = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
+            document.getElementById(`icon${i + 1}`).alt = forecast.weather[0].main + ' icon';
             i++;
         });
     });
