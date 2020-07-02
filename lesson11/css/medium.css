@@ -1,6 +1,6 @@
 
 /* tablet windows */
-@media only screen and (min-width: 660px) {
+@media only screen and (min-width: 760px) {
     header {
         display: flex;
     }
@@ -32,16 +32,25 @@
     }
 
 
-/* preston page  */
+/* weather pages  */
     .forecast {
         display: table;
     }
     #weathersummary {
+        position: absolute;
+        top: 10px;
+        left: 40px;
         max-width: 250px;
     }
     #weathersummary p, #weathersummary h3{
         margin: 1em;
         font-size: larger;
+    }
+    .eventdiv {
+        position: absolute;
+        bottom: 30px;
+        right: 40px;
+        background-color: #ffffff60;
     }
     .article img {
         float: right;
