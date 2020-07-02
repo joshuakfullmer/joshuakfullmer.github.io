@@ -141,8 +141,15 @@ table {
 }
 tr td, tr th {
     border: 2px solid;
-    /* padding: 1em; */
     background: #f1f1f1;
+    padding: 4px;
+}
+.forecast img {
+    padding: .5em;
+    width: 100px;
+}
+.forecast span {
+    font-size: 1.5em;
 }
 /* article */
 .article {
