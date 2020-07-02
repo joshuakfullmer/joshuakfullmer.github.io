@@ -1,7 +1,7 @@
 // weather summary 
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=8d1e99c71142778033ed100013bf9069';
 const fivedayapiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=8d1e99c71142778033ed100013bf9069'
-// 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=8d1e99c71142778033ed100013bf9069';
+
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
