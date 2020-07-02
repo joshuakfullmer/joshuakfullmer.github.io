@@ -1,5 +1,5 @@
 /* phone windows */
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 840px) {
     main, footer {
         max-width: 920px;
         margin: 0 auto;
@@ -11,19 +11,20 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
     section {
-        
         border: 1px solid black;
-        
         margin: .5rem auto;
         display: flex;
         flex-direction: column;
     }
     section:nth-child(even) {
-        flex-direction: column;
-    }
+        flex-direction: row;
 
-    #weathersummary {
-        top: 32px;
+    }
+    .eventdiv {
+        position: absolute;
+        bottom: 30px;
+        right: 40px;
+        background-color: #ffffffc5;
     }
     .socials a img {
         width: 64px;

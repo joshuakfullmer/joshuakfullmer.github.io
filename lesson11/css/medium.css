@@ -1,6 +1,6 @@
 
 /* tablet windows */
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 560px) {
     header {
         display: flex;
     }
@@ -21,13 +21,13 @@
     .cards {
         grid-template-columns: 1fr;
     }
-    section div:nth-child(odd) {
+    .cards section div:nth-child(odd) {
         flex-direction: row;;
     }
-    section {
+    .cards section {
         display: flex;
     }
-    section:nth-child(even) {
+    .cards section:nth-child(even) {
         flex-direction: row-reverse;
     }
 
@@ -43,14 +43,11 @@
         max-width: 250px;
     }
     #weathersummary p, #weathersummary h3{
-        margin: 1em;
+        margin: .2em;
         font-size: larger;
     }
-    .eventdiv {
-        position: absolute;
-        bottom: 30px;
-        right: 40px;
-        background-color: #ffffff60;
+    .summary img {
+        width: 900px;
     }
     .article img {
         float: right;
@@ -61,7 +58,7 @@
         flex-direction: row;
     }
     .mapcontact div {
-        margin: 1em;
+        margin: 1em auto;
     }
     .mapcontact h3 {
         margin-left: 1em;
