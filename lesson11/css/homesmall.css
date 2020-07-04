@@ -104,7 +104,27 @@ img {
 div {
     padding: 1em;
 }
-
+/* article */
+.article {
+    border: 1px solid;
+    background: whitesmoke;
+    margin: .3em auto;
+    width: 80%;
+}
+.article p {
+    text-indent: 50px;
+    font-size: 1.5em;
+}
+.article:nth-child(even) {
+    display: block;
+}
+.article img {
+    float: none;
+    width: 83%;
+    margin: .5em;
+    border: 3px solid;
+    margin-left: 3em;
+}
 /* lazy load */
 img[data-src] {
     filter: blur(0.2em);
