@@ -24,34 +24,15 @@
     <nav>
         <ul class="navbar">
             <li><a class="ham" onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html" class="active">Rentals</a></li>
             <li><a href="#">Reservations</a></li>
             <li><a href="#">Tours</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
     <main>
-        
-        <div class="calltoaction">
-            <h2>Need Transport?</h2>
-            <p>Make a rental reservation today!</p>
-        </div>
-        <div id="weathersummary">
-            <h3>What's the Weather Like Today?</h3>
-            <p>Temperature: <span id="temp1"></span>°</p>
-            <p>Weather Summary: <span id="current"></span></p>
-            <p>Humidity: <span id="humidity"></span></p>
-            <p><i>It will be <span id="temp5"></span>° five days from now.</i></p>
-        </div>
-        <div>
-            <h2>We Have Many Options to Choose From!</h2>
-            <p>Available Rentals Include: Honda Metro Scooter, Honda Dio Scooter, Honda PCX150 Scooter, Honda Pioneer ATV, 4 Door Jeep Wrangler with A/C, and 2 Door Jeep Wrangler</p>
-        </div>
-        <div>
-            <h2>Where can you Find Us?</h2>
-            <p>We're located near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel and near the Terminal Puerta Maya further south along the coast which caters to the cruise lines and patrons</p>
-        </div>
+        <div class="cards"></div>       
     </main>
     <footer>
         <div>
@@ -74,19 +55,6 @@
         </div>
     </footer>
     <script src="js/navagation.js"></script>
-    <!-- this is commented out so I don't over use it -->
-    <!-- <script src="js/weatherdata.js"></script> -->
-    
-    <!-- fonts aren't loading properly -->
-
-    <!-- <script src="https://fonts.googleapis.com/css2?family=Gugi&family=Sonsie+One&display=swap"></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Sonsie One', 'Gugi', 'Taviraj', ]
-                // font-family: cursive;
-            }
-        });
-    </script> -->
+    <script src="js/rentaldatawrite.js"></script>
 </body>
 </html>

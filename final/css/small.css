@@ -21,20 +21,23 @@ aside p {
 header,
 footer {
     padding: 1rem;
-    color: black;
-    
+    color: white;
 }
 header {
-    text-align: left;
     background-color: #05123B;
     justify-content: center;
-    color: white;
     padding: 2em;
     display: flex;
+}
+header div {
+    padding-top: 1.5em;
 }
 /* .titlecard {
     padding: 1em;
 } */
+main {
+    padding: 0 .5em;
+}
 .icon {
     max-width: 150px;
     padding: 2em;
@@ -108,9 +111,9 @@ main section {
 #weathersummary {
     border: 1px solid black;
     width: 300px;
-    margin: 1em;
+    margin: 1em auto;
     padding: 1em;
-    float: right;
+    float: none;
 
 }
 #weathersummary p, h3 {
@@ -131,6 +134,9 @@ body {
     text-align: center;
 }
 /* footer */
+.socials {
+    margin: 1em;
+}
 .socials a {
     text-decoration: none;
 }
@@ -142,9 +148,11 @@ footer {
     background-color: #025780;
     text-align: center;
     font-family: 'Gugi', cursive;
+    /* display: flex; */
 }
 footer a {
-    color: black;
+    color: white;
+    text-decoration: none;
 }
 footer p {
     margin-left: 0;

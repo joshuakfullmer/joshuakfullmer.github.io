@@ -1,0 +1,25 @@
+
+/* tablet windows */
+@media only screen and (min-width: 560px) {
+    header {
+        display: flex;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navbar a {
+        text-align: center;
+    }
+    .navbar li:first-child {
+        display: none;
+    }
+    .socials a img {
+        width: 47px;
+    }
+/* home page  */
+
+}

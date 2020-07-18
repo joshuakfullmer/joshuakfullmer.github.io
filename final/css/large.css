@@ -1,0 +1,23 @@
+/* phone windows */
+@media only screen and (min-width: 840px) {
+    main, footer {
+        max-width: 920px;
+        margin: 0 auto;
+    }
+    .homemain {
+        max-width: none;
+    }
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section {
+        border: 1px solid black;
+        margin: .5rem auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #weathersummary {
+        float: right;
+        margin: 1em;
+    }
+}

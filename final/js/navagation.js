@@ -15,12 +15,12 @@ function getDate() {
     document.getElementById('year').innerHTML = year;
     return now;
 }
-// pancakes banner
-banner();
-function banner() {
-    let daynum = day.getDay();
-    let show = document.getElementById('banner');
-    if (daynum != 5) {
-        show.style.display = "none"
-    }
-}
+// // pancakes banner
+// banner();
+// function banner() {
+//     let daynum = day.getDay();
+//     let show = document.getElementById('banner');
+//     if (daynum != 5) {
+//         show.style.display = "none"
+//     }
+// }
