@@ -30,7 +30,7 @@ fetch(rentalurl)
             
             card.appendChild(imgdiv);
             document.querySelector('div.cards').appendChild(card);
-            
+
             document.getElementById(`ren${i + 1}`).textContent = rentals[i].name;
             document.getElementById(`rhd${i + 1}`).textContent = rentals[i].rhd;
             document.getElementById(`rfd${i + 1}`).textContent = rentals[i].rfd;
@@ -51,6 +51,4 @@ fetch(rentalurl)
         //     document.getElementById(`icon${i + 1}`).alt = forecast.weather[0].main + ' icon';
         //     i++;
         // });
-    });
-
     });
