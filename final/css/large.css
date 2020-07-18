@@ -9,12 +9,7 @@
     }
     .cards {
         grid-template-columns: 1fr 1fr 1fr;
-    }
-    section {
-        border: 1px solid black;
-        margin: .5rem auto;
-        display: flex;
-        flex-direction: column;
+        text-align: center;
     }
     #weathersummary {
         float: right;

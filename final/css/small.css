@@ -121,8 +121,42 @@ main section {
     margin: 0;
     text-align: center;
 }
+th p {
+    margin: 0;
+}
+.prices {
+    max-width: 90%;
+    border: 1px solid black;
+    /* shaddow */
+}
+.prices table {
+    border-spacing: 0px;
+    padding: 1em;
+    
+}
+.prices td, th, p {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.prices th p {
+    max-width: 116px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1em;
+}
+.cards section {
+    border: 1px solid black;
+    margin: 0;
+    padding: .25em;
+    text-align: center;
+}
+.cardpic {
+    max-width: 80%;
+}
 
-/* lazy load */
+/* lazy load 
 img[data-src] {
     filter: blur(0.2em);
 }
@@ -132,7 +166,8 @@ img {
 }
 body {
     text-align: center;
-}
+} */
+
 /* footer */
 .socials {
     margin: 1em;

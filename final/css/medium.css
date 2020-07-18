@@ -17,6 +17,10 @@
     .navbar li:first-child {
         display: none;
     }
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        margin: 2em;
+    }
     .socials a img {
         width: 47px;
     }
