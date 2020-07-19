@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>~Scoot Home Page</title>
-    <meta name="description" content="Scoot Home Page and Portal">
+    <title>~Scoots Home Page</title>
+    <meta name="description" content="Scoots home page and portal">
     <!-- <link rel="shortcut icon" href="favicon.ico"> -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -37,8 +37,9 @@
     </main>
     <footer>
         <div>
-            <p>&copy; 2020 ~Scoots</p>
-            <a href="references.html" class="active">References</a>
+            <p>&copy; 2020 ~Scoots | <a href="references.html">References</a> | <a href="contact.html">Contact Us</a></p>
+            <p class="updateline">Last updated: <span id="update"></span></p>
+            
         </div>
         <div class="socials">
             <a href="https://www.facebook.com/" target="_blank">
@@ -55,20 +56,7 @@
             </a>
         </div>
     </footer>
+    <script>document.getElementById('update').innerHTML = document.lastModified;</script>
     <script src="js/navagation.js"></script>
-    <!-- this is commented out so I don't over use it -->
-    <!-- <script src="js/weatherdata.js"></script> -->
-    
-    <!-- fonts aren't loading properly -->
-
-    <!-- <script src="https://fonts.googleapis.com/css2?family=Gugi&family=Sonsie+One&display=swap"></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Sonsie One', 'Gugi', 'Taviraj', ]
-                // font-family: cursive;
-            }
-        });
-    </script> -->
 </body>
 </html>

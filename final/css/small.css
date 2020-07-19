@@ -28,7 +28,7 @@ header {
     justify-content: center;
     padding: 2em;
     display: flex;
-    border-radius: 30px 0 0 0;
+    border-radius: 50px 0 0 0;
     box-shadow: 0px 3px 19px -3px rgba(0,0,0,0.71);
 }
 header div {
@@ -69,7 +69,7 @@ li p {
 nav {
     margin: 0 auto;
     background-color: #025780;
-    border-radius: 0 0 30px 0;
+    border-radius: 0 0 50px 0;
     box-shadow: 0px 3px 19px -3px rgba(0,0,0,0.71);
 }
 .navbar {
@@ -173,9 +173,13 @@ fieldset {
 label {
     margin: 1em;
 }
+input {
+    padding: 5px;
+}
 textarea {
     width: 80%;
     height: 100px;
+    padding: 10px;
 }
 
 /* lazy load 
@@ -205,6 +209,7 @@ footer {
     background-color: #025780;
     text-align: center;
     font-family: 'Gugi', cursive;
+    border-radius: 50px 0 0 0;
     /* display: flex; */
 }
 footer a {

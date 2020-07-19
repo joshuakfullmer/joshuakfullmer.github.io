@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>~Scoot Reservations</title>
+    <title>~Scoots Reservations</title>
     <meta name="description" content="Scoots Reservation Form and Rules">
     <!-- <link rel="shortcut icon" href="favicon.ico"> -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -36,7 +36,7 @@
     <main>
         <h2>Reserve a Vechicle today!</h2>
         <div class="rules">
-            <p>By submitting your request, you indicate that you will adhere to the following rules.</p>
+            <p>By submitting your request, you indicate that you will adhere to the rules, and have read the following information.</p>
             <ul>
                 <li>A $50 security deposit is required to confirm reservations.</li>
                 <li>A valid drivers license is required in hand at time of rental.</li>
@@ -353,7 +353,7 @@
                 </label>
                 <label>Cruise Line:
                     <select name="cruise">
-                        <option value="" disabled selected>Optional...</option>
+                        <option value="" disabled selected>(optional)</option>
                         <option value="Royal Caribbean International">Royal Caribbean International</option>
                         <option value="Carnival Cruise Line">Carnival Cruise Line</option>
                         <option value="Norwegian Caribbean Cruises">Norwegian Cruise Line</option>
@@ -363,7 +363,7 @@
                         <option value="Celebrity Cruises">Celebrity Cruises</option>
                     </select>
                 </label>
-                <label>Do you agree to the rules listed above?
+                <label>Have you read and agreed to the rules and information listed above?
                     <input type="checkbox" name="danger" value="yes" required>
                     Yes
                 </label>
@@ -378,8 +378,9 @@
     </main>
     <footer>
         <div>
-            <p>&copy; 2020 ~Scoots</p>
-            <a href="references.html" class="active">References</a>
+            <p>&copy; 2020 ~Scoots | <a href="references.html">References</a> | <a href="contact.html">Contact Us</a></p>
+            <p class="updateline">Last updated: <span id="update"></span></p>
+            
         </div>
         <div class="socials">
             <a href="https://www.facebook.com/" target="_blank">
@@ -396,21 +397,8 @@
             </a>
         </div>
     </footer>
+    <script>document.getElementById('update').innerHTML = document.lastModified;</script>
     <script src="js/navagation.js"></script>
-    <!-- this is commented out so I don't over use it -->
-    <!-- <script src="js/weatherdata.js"></script> -->
-
-    <!-- fonts aren't loading properly -->
-
-    <!-- <script src="https://fonts.googleapis.com/css2?family=Gugi&family=Sonsie+One&display=swap"></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Sonsie One', 'Gugi', 'Taviraj', ]
-                // font-family: cursive;
-            }
-        });
-    </script> -->
 </body>
 
 </html>

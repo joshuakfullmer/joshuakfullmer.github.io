@@ -92,8 +92,9 @@
     </main>
     <footer>
         <div>
-            <p>&copy; 2020 ~Scoots</p>
-            <a href="references.html">References</a>
+            <p>&copy; 2020 ~Scoots | <a href="references.html">References</a> | <a href="contact.html">Contact Us</a></p>
+            <p class="updateline">Last updated: <span id="update"></span></p>
+            
         </div>
         <div class="socials">
             <a href="https://www.facebook.com/" target="_blank">
@@ -110,6 +111,7 @@
             </a>
         </div>
     </footer>
+    <script>document.getElementById('update').innerHTML = document.lastModified;</script>
     <script src="js/navagation.js"></script>
     <script src="js/rentaldatawrite.js"></script>
 </body>
