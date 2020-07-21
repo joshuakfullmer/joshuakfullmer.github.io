@@ -1,5 +1,4 @@
 /* small and standard view */
-/* myfonts: Sonsie One', 'Gugi', 'Taviraj */
 body {
     font-family: 'Taviraj', serif;
     background-image: url("paper.gif");
@@ -106,17 +105,16 @@ nav {
 .active {
     background-color: #003b58;
 }
-
-/* content */
-main section {
-    margin: 25px auto;
-    padding: 1px;
-}
-/* boxes */
+/* box standard */
 #weathersummary, .prices, .cards {
     background: whitesmoke;
     border-radius: 30px 0;
     box-shadow: 5px 6px 15px 0px rgba(0,0,0,0.75);
+}
+/* content */
+main section {
+    margin: 25px auto;
+    padding: 1px;
 }
 #weathersummary {
     border: 1px solid black;
@@ -147,9 +145,7 @@ th p {
 .prices table {
     border-spacing: 0px;
     margin: auto;
-    /* background-color: #e4e4e4; */
 }
-
 tr:nth-child(even) {
     background-color: #e4e4e4;   
 }
@@ -159,7 +155,6 @@ tr:nth-child(even) {
 .prices th p {
     width: 116px;
 }
-
 .cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -212,7 +207,6 @@ textarea {
     border-radius: 30px 0;
     box-shadow: 5px 6px 15px 0px rgba(0,0,0,0.75);
 }
-
 .contactinfo {
     display: flex;
     flex-direction: column;
@@ -234,7 +228,6 @@ iframe {
     text-decoration: none;
     color: navy;
 }
-
 /* footer */
 .socials {
     margin: 1em;
