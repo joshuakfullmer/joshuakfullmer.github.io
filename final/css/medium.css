@@ -21,9 +21,17 @@
         grid-template-columns: 1fr 1fr;
         margin: 2em;
     }
+    .contactinfo {
+        flex-direction: row;
+    }
+    .rules {
+        margin: 1em 4em;
+    }
+    .prices {
+        display: block;
+        font-size: 1em;
+    }
     .socials a img {
         width: 47px;
     }
-/* home page  */
-
 }

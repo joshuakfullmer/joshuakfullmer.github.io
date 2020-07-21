@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,15 @@
     <!-- <link rel="shortcut icon" href="favicon.ico"> -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">        
+    <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Sonsie+One&family=Taviraj:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Sonsie+One&family=Taviraj:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="titlecard">
+        <div>
             <h1>~Scoots</h1>
             <h2>Motor Scooter Rental</h2>
         </div>
@@ -32,69 +34,83 @@
         </ul>
     </nav>
     <main>
-
+        <h2>Check out our rental options!</h2>
         <div class="cards"></div>
         <section class="prices">
             <h3>Price Chart</h3>
-            <table>
-                <tr>
-                    <th><p>Rental</p></th>
-                    <th><p>Half Day Reservation</p></th>
-                    <th><p>Full Day Reservation</p></th>
-                    <th><p>Half Day Walk-in</p></th>
-                    <th><p>Full Day Walk-in</p></th>
-                </tr>
-                <tr>
-                    <td><span id="ren1"></span></td>
-                    <td><span id="rhd1"></span></td>
-                    <td><span id="rfd1"></span></td>
-                    <td><span id="whd1"></span></td>
-                    <td><span id="wfd1"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="ren2"></span></td>
-                    <td><span id="rhd2"></span></td>
-                    <td><span id="rfd2"></span></td>
-                    <td><span id="whd2"></span></td>
-                    <td><span id="wfd2"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="ren3"></span></td>
-                    <td><span id="rhd3"></span></td>
-                    <td><span id="rfd3"></span></td>
-                    <td><span id="whd3"></span></td>
-                    <td><span id="wfd3"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="ren4"></span></td>
-                    <td><span id="rhd4"></span></td>
-                    <td><span id="rfd4"></span></td>
-                    <td><span id="whd4"></span></td>
-                    <td><span id="wfd4"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="ren5"></span></td>
-                    <td><span id="rhd5"></span></td>
-                    <td><span id="rfd5"></span></td>
-                    <td><span id="whd5"></span></td>
-                    <td><span id="wfd5"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="ren6"></span></td>
-                    <td><span id="rhd6"></span></td>
-                    <td><span id="rfd6"></span></td>
-                    <td><span id="whd6"></span></td>
-                    <td><span id="wfd6"></span></td>
-                </tr>
-            </table>
+            <div style="overflow-x:auto;">
+                <table>
+                    <tr>
+                        <th>
+                            <p>Rental</p>
+                        </th>
+                        <th>
+                            <p>Half Day Reservation</p>
+                        </th>
+                        <th>
+                            <p>Full Day Reservation</p>
+                        </th>
+                        <th>
+                            <p>Half Day Walk-in</p>
+                        </th>
+                        <th>
+                            <p>Full Day Walk-in</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><span id="ren1"></span></td>
+                        <td><span id="rhd1"></span></td>
+                        <td><span id="rfd1"></span></td>
+                        <td><span id="whd1"></span></td>
+                        <td><span id="wfd1"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="ren2"></span></td>
+                        <td><span id="rhd2"></span></td>
+                        <td><span id="rfd2"></span></td>
+                        <td><span id="whd2"></span></td>
+                        <td><span id="wfd2"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="ren3"></span></td>
+                        <td><span id="rhd3"></span></td>
+                        <td><span id="rfd3"></span></td>
+                        <td><span id="whd3"></span></td>
+                        <td><span id="wfd3"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="ren4"></span></td>
+                        <td><span id="rhd4"></span></td>
+                        <td><span id="rfd4"></span></td>
+                        <td><span id="whd4"></span></td>
+                        <td><span id="wfd4"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="ren5"></span></td>
+                        <td><span id="rhd5"></span></td>
+                        <td><span id="rfd5"></span></td>
+                        <td><span id="whd5"></span></td>
+                        <td><span id="wfd5"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="ren6"></span></td>
+                        <td><span id="rhd6"></span></td>
+                        <td><span id="rfd6"></span></td>
+                        <td><span id="whd6"></span></td>
+                        <td><span id="wfd6"></span></td>
+                    </tr>
+                </table>
+            </div>
             <p>(tax is included in the above price)</p>
+
         </section>
     </main>
     <footer>
         <div>
-            <p>&copy; 2020 ~Scoots | <a href="references.html">References</a> | <a href="contact.html">Contact Us</a></p>
+            <p>&copy; 2020 ~Scoots | <a href="references.html">References</a> | <a href="contact.html">Contact Us</a>
+            </p>
             <p class="updateline">Last updated: <span id="update"></span></p>
-            
+
         </div>
         <div class="socials">
             <a href="https://www.facebook.com/" target="_blank">
@@ -111,8 +127,11 @@
             </a>
         </div>
     </footer>
-    <script>document.getElementById('update').innerHTML = document.lastModified;</script>
+    <script>
+        document.getElementById('update').innerHTML = document.lastModified;
+    </script>
     <script src="js/navagation.js"></script>
     <script src="js/rentaldatawrite.js"></script>
 </body>
+
 </html>

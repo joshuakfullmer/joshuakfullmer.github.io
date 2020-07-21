@@ -1,9 +1,5 @@
-/* phone windows */
+/* large windows */
 @media only screen and (min-width: 840px) {
-    main, footer {
-        max-width: 920px;
-        margin: 0 auto;
-    }
     .homemain {
         max-width: none;
     }
@@ -14,5 +10,16 @@
     #weathersummary {
         float: right;
         margin: 1em;
+    }
+    .cozumelinfo {
+        text-align: left;
+        text-decoration: initial;
+    }
+    .cozumelinfo ul {
+        list-style: inherit;
+        margin-left: 2em;
+    }
+    .cozumelinfo img {
+        float: right
     }
 }

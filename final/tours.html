@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,15 @@
     <!-- <link rel="shortcut icon" href="favicon.ico"> -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">        
+    <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Sonsie+One&family=Taviraj:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Sonsie+One&family=Taviraj:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="titlecard">
+        <div>
             <h1>~Scoots</h1>
             <h2>Motor Scooter Rental</h2>
         </div>
@@ -32,17 +34,57 @@
         </ul>
     </nav>
     <main>
+        <div class="cozumelinfo">
+            <h2>Welcome to Cozumel!</h2>
+            <p>
+                This island is the third-largest island in Mexico. The island is only 28 miles long and 11 miles wide,
+                but
+                it is an extremely popular stop for Caribbean cruise lines. There is so much to do, and even more to
+                see.
+                Cozumel is 20 kilometers off the northeast coast of the Yucatán Peninsula. The word Cozumel comes from
+                the
+                Mayan word "Ah-cuzamil" which means "land of the swallows". During the 17th and 18th centuries, pirates
+                often used the island as a hideout. It's stunning crystal beaches and thrilling diving spots and
+                continues
+                to attract more and more vacationers over the years.
+            </p>
+            <h3>There is so much to do here!</h3>
+            
+            <p>Some of the top tourist attractions in Cozumel include:</p>
+            <picture>
+                <source srcset="images/girlscooterLar.jpg" media="(min-width: 840px)">
+                <source srcset="images/girlscooterMed.jpg" media="(min-width: 560px)">
+                <img src="images/girlscooterSma.jpg" alt="girl posing with scooter">
+            </picture>
+            <ul>
+                <li>Museum of the Island of Cozumel</li>
+                <li>Paradise Beach</li>
+                <li>Playa San Juan Beach</li>
+                <li>Punta Sur Eco Beach Park</li>
+                <li>Playa El Cielo Beach</li>
+                <li>Playa Santa Rosa Beach</li>
+                <li>Coral Reefs Monument</li>
+                <li>Palancar Reef</li>
+                <li>Mexio Park</li>
+                <li>Mayan Bee Sanctuary</li>
+                <li>Stingray Beach</li>
+                <li>Mr. Sanchos Beach Club Cozumel</li>
+                <li>Chankanaab Adventure Beach Park</li>
+            </ul>
+            
 
-        <p>To set up a tour, please contact us.</p>
-        <a href="contact.html"><h2>Contact Information</h2></a>
-
-
+            <h3>To set up an official tour, please contact us.</h3>
+            <a href="contact.html">
+                <h3>Contact Information</h3>
+            </a>
+        </div>
     </main>
     <footer>
         <div>
-            <p>&copy; 2020 ~Scoots | <a href="references.html">References</a> | <a href="contact.html">Contact Us</a></p>
+            <p>&copy; 2020 ~Scoots | <a href="references.html">References</a> | <a href="contact.html">Contact Us</a>
+            </p>
             <p class="updateline">Last updated: <span id="update"></span></p>
-            
+
         </div>
         <div class="socials">
             <a href="https://www.facebook.com/" target="_blank">
@@ -59,7 +101,10 @@
             </a>
         </div>
     </footer>
-    <script>document.getElementById('update').innerHTML = document.lastModified;</script>
+    <script>
+        document.getElementById('update').innerHTML = document.lastModified;
+    </script>
     <script src="js/navagation.js"></script>
 </body>
+
 </html>

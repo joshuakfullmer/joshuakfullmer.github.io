@@ -1,11 +1,16 @@
 /* small and standard view */
-
+/* myfonts: Sonsie One', 'Gugi', 'Taviraj */
 body {
     font-family: 'Taviraj', serif;
-    background-color: white;
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+    background-image: url("../images/sunsetbeach.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0 auto;
     max-width: 1000px;
-    /* Sonsie One', 'Gugi', 'Taviraj */
+    font-weight: bold;
 }
 aside {
     background-color: #052142;
@@ -28,21 +33,22 @@ header {
     justify-content: center;
     padding: 2em;
     display: flex;
-    border-radius: 50px 0 0 0;
     box-shadow: 0px 3px 19px -3px rgba(0,0,0,0.71);
 }
 header div {
     padding-top: 1.5em;
 }
-/* .titlecard {
-    padding: 1em;
-} */
 main {
-    padding: 0 .5em;
+    padding: 1em;
+    font-size: 1.2em;
+    background: rgba(151, 199, 184, 0.555);
 }
 .icon {
     max-width: 150px;
     padding: 2em;
+}
+li {
+    padding: .2em;
 }
 
 h1 {
@@ -58,8 +64,6 @@ h3 {
     padding-left: .5em;
 }
 p {
-    margin: 1.6em;
-    font-size: 18px;
     line-height: initial;
 }
 li p {
@@ -69,7 +73,6 @@ li p {
 nav {
     margin: 0 auto;
     background-color: #025780;
-    border-radius: 0 0 50px 0;
     box-shadow: 0px 3px 19px -3px rgba(0,0,0,0.71);
 }
 .navbar {
@@ -84,27 +87,24 @@ nav {
 }
 .navbar li {
     display: none;
-    
+    padding: 0;
 }
 .navbar a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: .6em;
     font-size: larger;
-    border-radius: .75rem;
-    color: white;
 }
 .navbar a:hover {
-    font-weight: bold;
-    /* color: white; */
+    transition: font-style 0.5s;
+    background-color:#003b58;
 }
 .responsive li {
     display: block;
 }
 .active {
-    color: black;
-    font-weight: bold;
+    background-color: #003b58;
 }
 
 /* content */
@@ -112,20 +112,23 @@ main section {
     margin: 25px auto;
     padding: 1px;
 }
+/* boxes */
+#weathersummary, .prices, .cards {
+    background: whitesmoke;
+    border-radius: 30px 0;
+    box-shadow: 5px 6px 15px 0px rgba(0,0,0,0.75);
+}
 #weathersummary {
     border: 1px solid black;
     width: 300px;
     margin: 1em auto;
     padding: 1em;
     float: none;
-    border-radius: 30px 0;
-    box-shadow: 5px 6px 15px 0px rgba(0,0,0,0.75);
 }
 #weathersummary p, h3 {
     padding: 5px;
     margin: 0;
     text-align: center;
-    
 }
 th p {
     margin: 0;
@@ -133,28 +136,38 @@ th p {
 .prices {
     max-width: 90%;
     border: 1px solid black;
-    border-radius: 30px 0;
-    box-shadow: 5px 6px 15px 0px rgba(0,0,0,0.75);
+    padding: 1em;
+}
+.prices h3 {
+    margin-top: 1em;
+}
+.prices p {
+    margin: .5em;
 }
 .prices table {
     border-spacing: 0px;
-    padding: 1em;
-    
+    margin: auto;
+    /* background-color: #e4e4e4; */
+}
+
+tr:nth-child(even) {
+    background-color: #e4e4e4;   
 }
 .prices td, th, p {
     text-align: center;
 }
 .prices th p {
-    max-width: 116px;
+    width: 116px;
 }
+
 .cards {
     display: grid;
     grid-template-columns: 1fr;
     margin: 1em;
 }
 .cards section {
-    border: 1px solid black;
     margin: 0;
+    margin-bottom: 2em;
     padding: .25em;
     text-align: center;
 }
@@ -162,11 +175,12 @@ th p {
     max-width: 80%;
 }
 .rules {
-    margin: 1em 4em;
+    margin: 1em 1em;
 }
 fieldset {
     display: flex;
     margin-bottom: 1em;
+    background: whitesmoke;
     border-radius: 30px 0;
     box-shadow: 5px 6px 15px 0px rgba(0,0,0,0.75);
 }
@@ -181,18 +195,45 @@ textarea {
     height: 100px;
     padding: 10px;
 }
-
-/* lazy load 
-img[data-src] {
-    filter: blur(0.2em);
-}
-img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
-body {
+.cozumelinfo {
     text-align: center;
-} */
+}
+.cozumelinfo a {
+    text-decoration: none;
+    color: navy;
+    padding: 1em;
+}
+.cozumelinfo ul {
+    list-style: none;
+}
+.cozumelinfo img {
+    float: none;
+    max-width: 50%;
+    border-radius: 30px 0;
+    box-shadow: 5px 6px 15px 0px rgba(0,0,0,0.75);
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+}
+iframe {
+    margin: 0 auto;
+    background: rgb(192, 237, 255);
+    border-radius: 30px 0;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+}
+.references {
+    margin: 1em auto;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+}
+.references a {
+    text-decoration: none;
+    color: navy;
+}
 
 /* footer */
 .socials {
@@ -209,8 +250,7 @@ footer {
     background-color: #025780;
     text-align: center;
     font-family: 'Gugi', cursive;
-    border-radius: 50px 0 0 0;
-    /* display: flex; */
+    font-weight: normal;
 }
 footer a {
     color: white;
