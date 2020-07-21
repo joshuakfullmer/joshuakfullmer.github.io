@@ -22,4 +22,7 @@
     .cozumelinfo img {
         float: right
     }
+    .contactinfo {
+        flex-direction: row;
+    }
 }
